@@ -1,6 +1,25 @@
 ## [Get Started with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai/?ns-enrollment-type=Collection)
 
-Authentication for Azure AI Services
+### Define Artificial Intelligence
+- MS defines it with various types :
+    - Vision
+    - Text Analytics
+    - Speech
+    - Decision Making
+ - AI Terms :
+    - Data Science : focuses on processing of data; applying stats; exploring data
+    - Machine Learning : training and validating predictive models
+    - Artificial Intelligence : usually builds on machine learning to create sotware that emulates human intelligence 
+- Considerations for Responsible AI
+    - **Fairness** : AI systems should treat all people fairly.
+    - **Reliability and Safety** : AI systems should perform reliably and safely
+    - **Privacy and Security** : Should be secure and respect privacy.
+    - **Inclusiveness** : Empower and engage people. Bring benefits to society.
+    - **Transparency** : Be understandable and users made fully aware of system purposes and how it works.
+    - **Accountability** : People should be accountable for AI systems.
+ 
+
+### Authentication for Azure AI Services
 - By default, restricted by subscription keys
 - Should protect keys with Azure Key Vault
 - Some AI services may require a token. Auth token can be retrieved with subscription id and is then valid for 10 minutes.
@@ -25,6 +44,7 @@ Authentication for Azure AI Services
     ```
     az vm identity assign -g <my-resource-group> -n <my-vm>
     ```
+## Running as Containers
 - Azure AI services can be deployed as containers - either to AKS or even as a local container on-prem
 - Numerous Speech, Language, Vision and Decision containers are available.
 - When you deploy an Azure AI service container, must specify three items :
