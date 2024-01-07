@@ -1,3 +1,10 @@
+## January-7
+---
+- Found some recent books on AI. I've read some great AI books in the past, including Life 3.0, Superintelligence. Found a couple that I haven't read yet that have some pretty positive reviews on Amazon. 2084 - Artificial Intelligence and the Future of Humanity-Zondervan (2020) by John C. Lennox is one that I'll start picking up. Also found a couple of newer technical reference books that get into Transformers and other algorithms.
+- Worked through the AI-102 Azure AI Service lab, using an Azure AI container. It's interesting that Microsoft makes their containers available for local runtime and are still able to apply billing back to your subscription. I ran the language detection container on an Azure Container Instance. Which took a really long time to get running. I also found that the first time I ran the service, it took a fairly long time to instantiate and run. Consecutive attempts ran pretty quickly.
+- Sidenote : Azure container repo URI : https://mcr.microsoft.com/en-us/catalog?page=1
+- I quickly then deleted the container instance to avoid charges.
+
 ## January-6
 ---
 So here I go again. Trying to jam in as much learning as I can about AI. Intending to use this markdown file as a mechanism to blog about it all. Previously when I did this, I documented the whole journey in [Trello, here](https://trello.com/b/g1cS5K0O) and wrote about the top 5 insights I learned, [here in a Medium article](https://medium.com/swlh/top-5-insights-after-i-spent-100-days-learning-about-artificial-intelligence-b14b44a67134). This time, I'm just going to put it all in my github account. This has become the place where I mostly write anyway.
