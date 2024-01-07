@@ -25,6 +25,12 @@ Authentication for Azure AI Services
     ```
     az vm identity assign -g <my-resource-group> -n <my-vm>
     ```
+- Azure AI services can be deployed as containers - either to AKS or even as a local container on-prem
+- Numerous Speech, Language, Vision and Decision containers are available.
+- When you deploy an Azure AI service container, must specify three items :
+    - ApiKey : API key
+    - Billing : service endpoint
+    - Eula : "accept" that you accept the eula
 
 ## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
 
