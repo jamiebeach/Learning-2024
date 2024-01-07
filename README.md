@@ -9,7 +9,3 @@ During 2023, I spent some time in learning mode, but not nearly as much as I had
 
 I plan on taking many courses this year and documenting my progress in this repo here. Where possible, I will include code and subdirectories with working examples. I also plan on documenting the daily experience in this repo in a blog style.
 
-## Courses
-[Data Science and Machine Learning with Python Hands On (Udemy, Sundog Education)](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/)
-
-
