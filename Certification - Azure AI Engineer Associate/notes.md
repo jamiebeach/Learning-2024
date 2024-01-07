@@ -52,6 +52,20 @@
     - Billing : service endpoint
     - Eula : "accept" that you accept the eula
 
+## [Develop Decision Support Solutions with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/develop-decision-support/)
+
+### Azure Personalizer Service
+- An Azure AI service that uses **reinforcement learning** to empower your applications to make smarter decisions.
+- Reinforcement learning is a process that enables Azure AI Personalizer to choose the best action for a given context, aiming to maximize a reward
+- Rank and Reward APIs :
+    - Rank : called when want to decision - return best action that maximizes total average reward.
+    - Reward : Called to get feedback to help Azure AI Personalizer to learn whether Action ID it returned was vaulable.
+- *Azure AI Personalizer learning loop*
+- Can configure "exploration" to enable Azure AI Personalizer to find new patterns over time and adapt itself to users' behavioral changes.
+- *Apprentice Mode* Azure AI Personalizer can begin its learning process by looking at the choices made by app's logic and mimic its decisions.
+- *Inference explainability* helps better understand which features an action have that influence least or most.
+
+
 ## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
 
 - Convolutional Neural Networks (CNN): common ML architecture for computer vision
