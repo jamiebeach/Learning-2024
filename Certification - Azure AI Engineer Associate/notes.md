@@ -25,3 +25,17 @@ Authentication for Azure AI Services
     ```
     az vm identity assign -g <my-resource-group> -n <my-vm>
     ```
+
+## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
+
+- Convolutional Neural Networks (CNN): common ML architecture for computer vision
+    - Use filters to extract numeric feature maps from images, and then feed the feature values into a deep learning model to generate a label prediction
+    - CNNs have been core to computer vision for years
+- Transformers
+    - Foundational to modern LLMs
+    - Work by processing huge volumes of data, and encoding language tokens (representing individual words or phrases) as vector-based embeddings (arrays of numeric values)
+    - The embeddings are created such that tokens that are commonly used in the same context are closer together dimensionally than unrelated words.
+ - Multi-modal models
+   - Takes concept of transformers and NLP models and applies to images
+   - Model is trained using a large volume of captioned images, with no fixed labels. An image encoder extracts features from images based on pixel values and combines them with text embeddings created by a language encoder. The overall model encapsulates relationships between natural language token embeddings and image features.
+   - Microsoft Florence is an example of a multi-modal model. Is also a **foundation** model (a pre-trained general model on which you can build multiple adaptive models for specialist tasks).
