@@ -1,3 +1,5 @@
+# [Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-102/)
+
 ## [Get Started with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai/?ns-enrollment-type=Collection)
 
 ### Define Artificial Intelligence
@@ -66,6 +68,19 @@
 - *Apprentice Mode* Azure AI Personalizer can begin its learning process by looking at the choices made by app's logic and mimic its decisions.
 - *Inference explainability* helps better understand which features an action have that influence least or most.
 
+## [Create computer vision solutions with Azure AI Vision](https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/)
+
+### Analyze Images
+- **Azure Vision Service** : designed to help you extract information from images. It provides functionality that you can use for :
+    - Determining caption for an image
+    - Detecting object
+    - Detecting people
+    - Determine metadata about image (size, color palette, clip art)
+    - Identify appropriate category and if it contains known landmarks
+    - Remove background
+    - Determine if it contains adult or violent content
+    - Read text in the image
+    - Smart thumbnail generation
 
 ## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
 
