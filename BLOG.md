@@ -5,6 +5,7 @@
 - Sidenote : Azure container repo URI : https://mcr.microsoft.com/en-us/catalog?page=1
 - I quickly then deleted the container instance to avoid charges.
 - Started next module in AI-102 self-paced track, introducing decision support capabilities.
+- Did the Analyze Images lab in the self-paced learning track
 - Watched another 30 minutes of [John Savill's Azure AI-102 Study Cram](https://youtu.be/I7fdWafTcPY?si=d9l-gEwqddqYiAmx) video - again while working out in my basement gym.
  
 ## January-6
