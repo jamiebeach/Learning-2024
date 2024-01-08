@@ -55,6 +55,7 @@
 ## [Develop Decision Support Solutions with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/develop-decision-support/)
 
 ### Azure Personalizer Service
+- *As of Fall 2023, the Azure Personalizer Service is no longer available*
 - An Azure AI service that uses **reinforcement learning** to empower your applications to make smarter decisions.
 - Reinforcement learning is a process that enables Azure AI Personalizer to choose the best action for a given context, aiming to maximize a reward
 - Rank and Reward APIs :
