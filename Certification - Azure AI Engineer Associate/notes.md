@@ -107,6 +107,23 @@
 - The easiest option for labeling images for object detection is to use the interactive interface in the Azure AI Custom Vision portal.
 - Subsequent labeling of new images can benefit from the smart labeler tool in the portal, which can suggest not only the regions, but the classes of object they contain.
 - Alternatively : use a labeling tool, such as the one provided in Azure Machine Learning Studio or the Microsoft Visual Object Tagging Tool (VOTT),
+
+### Faces : Detect, Analyze and Recognize
+- Azure AI Vision Service : allows detection of people
+- Azire Face API :
+    - Face detection with bounding box
+    - Feature analysis (pose, blur, glasses, landmarks, occlusion, etc)
+    - Face comparison and verification
+    - Facial recognition
+- Face API Considerations :
+    - Data privacy and security
+    - Transparency
+    - Fairness and inclusiveness
+- Can do more than 1 person in an image.
+- Can take video as input and detect 'livliness'
+- Using identification, verification or recognition requires application to [limited access policy](https://aka.ms/cog-services-limited-access)
+- Face ID's (guids) are cached by Azure for 24 hours. Can be used to compare with faces in other media
+- Can train facial recognition on people's faces. In this case, face id is persisted.
   
 ## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
 
