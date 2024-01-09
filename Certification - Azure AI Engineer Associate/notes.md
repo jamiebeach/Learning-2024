@@ -82,6 +82,32 @@
     - Read text in the image
     - Smart thumbnail generation
 
+### Classify Images
+- Azure AI Custom Vision
+    - Use existing (labeled) images to train an Azure AI Custom Vision model.
+    - Requires provisioning two resources:
+        1. Training : An Azure AI Service or a Custom Vision (Training) Service
+        2. Prediction : An Azure AI Service or a Custom Vision (Prediction) Service
+    - To train :
+        - Azure AI Custom Vision portal
+        - Azure AI Custom Vision REST API or SDK
+        - or a combination of both approaches
+
+### Detect Objects in Images
+- Use Azure AI Custom Vision service to create object detection models.
+- Main difference from Classification model : Object detection detects bounding boxes of objects.
+- There are two components to an object detection prediction:
+    1. The class label of each object detected in the image.
+    2. The location of each object within the image, indicated as coordinates of a bounding box that encloses the object.
+- Requires provisioning two resources:
+    1. Training : An Azure AI Service or a Custom Vision (Training) Service
+    2. Prediction : An Azure AI Service or a Custom Vision (Prediction) Service
+- Can use a single Azure AI Services resource for both training and prediction
+- Can mix-and-match resource types (ex, use Azure AI Custom Vision (Training) resource to train a model, then publish using an Azure AI Services resource).
+- The easiest option for labeling images for object detection is to use the interactive interface in the Azure AI Custom Vision portal.
+- Subsequent labeling of new images can benefit from the smart labeler tool in the portal, which can suggest not only the regions, but the classes of object they contain.
+- Alternatively : use a labeling tool, such as the one provided in Azure Machine Learning Studio or the Microsoft Visual Object Tagging Tool (VOTT),
+  
 ## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
 
 - Convolutional Neural Networks (CNN): common ML architecture for computer vision
