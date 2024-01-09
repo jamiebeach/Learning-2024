@@ -124,7 +124,44 @@
 - Using identification, verification or recognition requires application to [limited access policy](https://aka.ms/cog-services-limited-access)
 - Face ID's (guids) are cached by Azure for 24 hours. Can be used to compare with faces in other media
 - Can train facial recognition on people's faces. In this case, face id is persisted.
-  
+
+### Azure Video Indexing
+- Extract information from videos
+- Can handle :
+    - Facial recognition (requires Limited Access approval)
+    - OCR
+    - Speech transcription
+    - Topic identification
+    - Sentiment analysis
+    - Label \\ tagging
+    - Detection of adult or violent themes
+    - Scene segmentation (break down video to scenes)
+- Provides a portal to upload videos to and interactively view and analyze
+- Video indexer can identify specific people in videos, if trained (requiring limited access approval)
+- Can be trained to detect specific terminology that may not be in common usage
+- Can be trained to recognize specific names of brands.
+- Azure Video Indexer Widget is available to include Azure Video Indexer in your own custom HTML interfaces.
+- REST API available to get information about account, including access token.
+- ARM templates available
+
+### Question and Answering Solution
+- Use Azure AI Language to create a knowledge base of question and answer pairs (for supporting a chat bot or application)
+- Azure AI Language includes a question answering capability - define a knowledge base of question and answer pairs that can be queried using natural language input.
+- Can be published as a REST endpoint.
+- Difference between Q&A and Language model is that the Q&A returns a static answer to a known question whereas the Language understanding returns its understanding to the intent of the question asked.
+- Create a knowledge base:
+    - write code that calls REST API\SDK to define, train and publish knowledge base. More common to use language studio.
+    - Azure AI Services -> Language Service
+    - Enable Q&A, Create or select Azure AI Search resource to host knowledge base index
+    - In Language Studio, create a Custom Question Answering project
+    - Add one or more data sources to populate knowledge base.
+    - Edit question and answer pairs in portal
+- Multi-turn conversations can be created (where there are follow-up questions and the like)
+- Test and publish a knowledge base in Language Studio
+- Then deploy to a REST endpoint.
+- Consume from REST endpoint
+- Active Learning can help you get better answer selection over time.
+- 
 ## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
 
 - Convolutional Neural Networks (CNN): common ML architecture for computer vision
