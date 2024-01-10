@@ -144,6 +144,36 @@
 - REST API available to get information about account, including access token.
 - ARM templates available
 
+### Explore Azure AI Services for Vision (preview)
+- Microsoft's Florence large foundation model - significant improvements to image analysis and groundbreaking customization capabilities
+- Using updated Image Analysis 4.0 service, devs can use the Azure Computer Vision APIs to quickly and easily integrate image analysis functionality into applications.
+- Features :
+  - Create image captions
+  - Human readable descriptions
+  - Extract and read text
+  - Detect faces
+  - Search visual inputs using natural language queries
+- Provides low-code UI-based tool for trying the capabilities
+- **Florence Foundation Model**
+    - trained on billions of text-image pairs
+    - able to recognize things from a small number of sample photos (few-shot)
+    - Previously, required minimum of 15 images. Now can be as few as 4 images.
+    - **Caption** generates a single sentence describing image, evaluating image content hollistically
+    - **Dense Captions** provides supplementary information, generating descriptive phrases for individual objects in the image.
+    - **Image Retrieval** in Image Analysis 4.0 - vectorization converts incoming queries to vectors and matches images based on semantic closeness. Search images using natural language.
+    - **Tagging** identify content within an image (objects, actions, living beings, scenery)
+    - **Object Detection** similar to tagging but API returns tag plus bounding box coords for each object found.
+    - **OCR** provides fast sync api for scenarios that include single images without text-heavy - near real-time.
+    - People detection, background removal, smart image thumbnails (all like previous iteration of Vision Service.
+- Vision Studio :
+    - Azure Computer Vision's newest tool, provides unified portal experience for Image Analysis 4.0.
+    - **Spatial Analysis** : video summary, frame locator, count people in an area, detect position of people.
+- Can train the models when pre-trained models may not be accurate enough.
+    - Training images must be stored in an Azure Storage Account container to be accessible by the model.
+- COCO file : 
+    - Common Object in Context (COCO) - JSON files used for storing information about training images and associated annotations.
+- Dataset and Model objects
+  
 ### Question and Answering Solution
 - Use Azure AI Language to create a knowledge base of question and answer pairs (for supporting a chat bot or application)
 - Azure AI Language includes a question answering capability - define a knowledge base of question and answer pairs that can be queried using natural language input.
