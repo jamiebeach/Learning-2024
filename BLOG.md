@@ -6,6 +6,12 @@ During the train to the office, I managed to get through a couple of modules on 
 
 I'm listening to a science-fiction, [Robopocalypse, by Daniel H. Wilson (2011)](https://en.wikipedia.org/wiki/Robopocalypse) and it's a pretty sweet story about a human unleashing uncontrollable AI. I'm very much enjoying it and managed to get a few chapters in as well on the train. The problem I'm having is that I end up not listening for stretches or, like last night, I fall asleep and wake up 12 further chapters into the book but no idea what happened. So I'm having to rewind quite a bit. But highly recommended if you are on the hunt for AI related science fiction.
 
+I finished one of the Microsoft Ignite: Azure AI Vision challenge. Part of it was exploring the Image Analysis 4.0 capabilities and get a better understanding of the improvements that have been made with the use of Florence.
+
+Got me some sweet badges.
+
+![Azure AI Vision badges](images/20230109_azure-learn-achievements-vision_and_facialrecognition.jpg)
+
 
 ## January-8
 ---
