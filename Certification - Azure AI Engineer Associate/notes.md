@@ -211,7 +211,37 @@
 - Then deploy to a REST endpoint.
 - Consume from REST endpoint
 - Active Learning can help you get better answer selection over time.
-- 
+
+### Build a Conversational Language Understanding Model
+- NLP (Natural Language Processing) vs NLU (Natural Language Understanding) - determining semantic meaning from natural language
+- User Input -> NLU Model determines meaning -> App performs action
+- [Azure AI Language Documentation](https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview)
+- Pre-configured features
+    - Summarization : summarizes text into key sentences; available for both documents and conversations
+    - Named entity recognition : extract and identify entities (people, places, companies)
+    - Personally Identifiable Information (PII) detection : identify, categorize and redact PII
+    - Key Phrase Extraction
+    - Sentiment Analysis
+    - Language Detection
+- Learned features : requires labeling data, training and eploying model to make available.
+    - Conversational Language Understanding (CLU) : helps users build custom natural language understanding models to predict overall intent and extract important information
+    - Custom named entity recognition : use custom labeled data to extract specified entities from unstructured text.
+    - Custom text classification
+    - Question answering
+- [Language Studio](https://language.cognitive.azure.com/)
+- Can also use REST API to build model
+- Authentication : must provide following header in each API call to authentiate :
+```
+Ocp-Apim-Subscription-Key="The key to your resource"
+```
+- Can query the model via SDK or REST API
+- **Utterances** : phrases that a user might enter
+- **Intent** : represents a task or action the user wants to perform (ie. meaning of utterance)
+- [Supported pre-built entities](https://learn.microsoft.com/en-us/azure/ai-services/language-service/conversational-language-understanding/prebuilt-component-reference)
+
+
+    - 
+
 ## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
 
 - Convolutional Neural Networks (CNN): common ML architecture for computer vision
