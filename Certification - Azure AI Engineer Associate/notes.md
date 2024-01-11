@@ -173,7 +173,27 @@
 - COCO file : 
     - Common Object in Context (COCO) - JSON files used for storing information about training images and associated annotations.
 - Dataset and Model objects
-  
+
+## [Develop Natural Language Processing with Azure AI](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/)
+### Analyze Text
+- Azure AI Language detection API
+    - documents must be less than 5120 characters
+    - and api calls must be less than 1000 items
+    - Each item contains an id and the text to be analyzed
+    - Response includes predicted language and confidence level 0 to 1
+    - Mixed language content within the same document returns the language with the largest representation in the content, but with a lower positive rating
+- Extract key phrases
+    - Key phrase extraction works best for larger documents (the maximum size that can be analyzed is 5,120 characters).
+    - As with language detection, the REST interface enables you to submit one or more documents for analysis.
+- Sentiment Analysis
+    - Overall document sentiment is based on sentences:
+        - If all sentences are neutral, the overall sentiment is neutral.
+        - If sentence classifications include only positive and neutral, the overall sentiment is positive.
+        - If the sentence classifications include only negative and neutral, the overall sentiment is negative.
+        - If the sentence classifications include positive and negative, the overall sentiment is mixed.
+- Extract Entities
+- Extract Linked entities
+
 ### Question and Answering Solution
 - Use Azure AI Language to create a knowledge base of question and answer pairs (for supporting a chat bot or application)
 - Azure AI Language includes a question answering capability - define a knowledge base of question and answer pairs that can be queried using natural language input.
