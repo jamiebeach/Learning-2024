@@ -4,6 +4,8 @@ I saw some tweets this morning about how GPT-4 is getting increasingly "lazy" an
 
 Aside : What does quantization mean anyway? And how does one quantize a model? Note to self: explore this...
 
+This evening I spent quite a bit of time playing around with LM Studio and varoius language models. Unfortunately I did not have great success. Maybe it was because I was running it from a Linux image on an sd card, but it was giving me some very strange results and then I couldn't open a model any longer.
+
 ## January-9
 ---
 I took the train into Toronto today. I nearly got on the wrong train heading back home. Actually I **did** get on the wrong train heading home, but fortunately got on the right train line and was able to hop-off-hop-on to get on the right train. Phew!
