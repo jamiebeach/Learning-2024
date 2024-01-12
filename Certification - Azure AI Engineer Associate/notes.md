@@ -253,7 +253,7 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 - **Intent** : represents a task or action the user wants to perform (ie. meaning of utterance)
 - [Supported pre-built entities](https://learn.microsoft.com/en-us/azure/ai-services/language-service/conversational-language-understanding/prebuilt-component-reference)
 
-## [Create a custom text classification solution](https://learn.microsoft.com/en-us/training/modules/custom-text-classification/)
+### [Create a custom text classification solution](https://learn.microsoft.com/en-us/training/modules/custom-text-classification/)
 - Part of NLP is the ability to classify text. Azure provides 
 - Types of classification projects :
     - **Single label classification**
