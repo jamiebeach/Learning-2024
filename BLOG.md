@@ -4,6 +4,8 @@ This morning, I got through another hour of the AI-102 learning path. More delvi
 
 Tonight, I started exploring fine-tuning LLMs. I've used LoRAs with Stable Diffusion through ComfyUI many times. Most recently, using the various Christmas LoRAs when generating some fun Christmas poem videos ([see here](https://www.threads.net/@jam1eb3ach/post/C09-oxiriJn)). However, I really had no idea how to create them. I ended up on youtube and watched [this great video](https://www.youtube.com/watch?v=eC6Hd1hFvos) about what LoRA's are and how to create one for fine-tuning a language model. It's a great video and highly recommended if you're interested in the same. I also created a new section in this repo called [LLM](./LLM) and added [a markdown that explains Fine Tuning](./LLM/Fine-Tuning.md).
 
+This video came from a [series of videos by Shaw Talebi about Large Language Models](https://www.youtube.com/watch?v=tFHeUSJAYbE&list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0) which look really good. Bookmarking!
+
 
 ## January-10
 ---
