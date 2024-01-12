@@ -1,14 +1,24 @@
 # Learning-2024
+---
+
+## ToC
+- [Blog](./BLOG.md)
+- [Resources](./RESOURCES.md)
+- Certifications
+  - [Azure AI Engineering Associate - AI-102](./Certification%20-%20Azure%20AI%20Engineer%20Associate/notes.md)
+- [LLM](./LLM)
+  - [Fine-Tunining](./LLM/Fine-Tuning.md)
+---
 
 In 2019, [I took a deep dive in AI](https://medium.com/swlh/top-5-insights-after-i-spent-100-days-learning-about-artificial-intelligence-b14b44a67134), spending countless hours studying and exploring it all. It was a time of intense learning, but as life often does, it brought new challenges and directions. A new job opportunity arose, and my focus shifted, leading me to set aside my AI pursuits.
 
-My original 2019 AI endevour was initially motivated by listening to an interview with Kevin Kelly in which he positioned that, at that time, just picking up some basic knowledge on AI and Machine Learning could place you among the top 1% of those knowledgeable in the field. Inspired, I immediately signed up for the Coursera Machine Learning course as soon as I got home.
+My original 2019 AI endevour was initially motivated by [listening to an interview](https://youtu.be/csrgeLio9V4?t=1319) with [Kevin Kelly](https://kk.org/) in which he positioned that, at that time, just picking up some basic knowledge on AI and Machine Learning could place you among the top 0.1% of experts in the field. Inspired, I immediately signed up for the [Coursera Machine Learning course](https://www.coursera.org/specializations/machine-learning-introduction#courses) as soon as I got home.
 
 ## The Future Happens Very Slowly and Then All at Once
 
-One of Kevin Kelly's more famous quotes also happens to be, "the future happens very slowly and then all at once." I think today, this resonates more than ever. The 2020's are, without a doubt, going to mark an exponential explosive technological growth - with it all happening at once.
+One of Kevin Kelly's more famous quotes also happens to be, "the future happens very slowly and then all at once." I think today, **this resonates more than ever**. The 2020's are, without a doubt, going to mark an exponential explosive technological growth - with it all happening at once.
 
-And AI will be at the center of it all...
+**And AI will be at the center of it all...**
 
 So now, the beginning of 2024, I am certain that I need to (once again) learn as much about artificial intelligence as I possibly can.
 
