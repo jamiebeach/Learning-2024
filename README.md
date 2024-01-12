@@ -1,6 +1,6 @@
 # Learning-2024
 
-In 2019, I was deeply immersed in AI, spending countless hours studying and exploring it all. It was a time of intense learning, but as life often does, it brought new challenges and directions. A new job opportunity arose, and my focus shifted, leading me to set aside my AI pursuits.
+In 2019, [I took a deep dive in AI](https://medium.com/swlh/top-5-insights-after-i-spent-100-days-learning-about-artificial-intelligence-b14b44a67134), spending countless hours studying and exploring it all. It was a time of intense learning, but as life often does, it brought new challenges and directions. A new job opportunity arose, and my focus shifted, leading me to set aside my AI pursuits.
 
 My original 2019 AI endevour was initially motivated by listening to an interview with Kevin Kelly in which he positioned that, at that time, just picking up some basic knowledge on AI and Machine Learning could place you among the top 1% of those knowledgeable in the field. Inspired, I immediately signed up for the Coursera Machine Learning course as soon as I got home.
 
