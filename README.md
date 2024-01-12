@@ -1,12 +1,24 @@
 # Learning-2024
 
-Hello and thanks for checking out this repo! I'm using this repo to catalogue a journey back into the world of Artificial Intelligence (AI). Let me start with a bit of history. In 2019, I was deeply immersed in AI, spending countless hours studying and exploring this captivating field. It was a time of intense learning and discovery, but as life often does, it brought new challenges and directions. A new job opportunity arose, and my focus shifted, leading me to set aside my AI pursuits.
+In 2019, I was deeply immersed in AI, spending countless hours studying and exploring it all. It was a time of intense learning, but as life often does, it brought new challenges and directions. A new job opportunity arose, and my focus shifted, leading me to set aside my AI pursuits.
 
-## 2024: Reigniting the AI Flame
-Now, in 2024, it's been five years since my initial deep dive into AI. The field has evolved dramatically, and I'm eager to catch up on all the advancements and innovations that I've missed. So, here's what I have planned:
+My original 2019 AI endevour was initially motivated by listening to an interview with Kevin Kelly in which he positioned that, at that time, just picking up some basic knowledge on AI and Machine Learning could place you among the top 1% of those knowledgeable in the field. Inspired, I immediately signed up for the Coursera Machine Learning course as soon as I got home.
+
+## The Future Happens Very Slowly and Then All at Once
+
+One of Kevin Kelly's more famous quotes also happens to be, "the future happens very slowly and then all at once." I think today, this resonates more than ever. The 2020's are, without a doubt, going to mark an exponential technological growth.
+
+And AI will be at the center of it all...
+
+So now, the beginning of 2024, I am certain that I need to learn as much about artificial intelligence as I possibly can.
+
+This is the goal. And this github repo will detail the journey.
+
+Here's what I'm planning:
 
 - **A Blend of Learning Experiences:** I'm set to embark on a variety of courses this year, aiming to refresh my knowledge and delve into the latest developments in AI.
 - **Practical Application:** Alongside theoretical learning, I'll be engaging in hands-on projects. This repository will serve as a living document of my progress, featuring code, projects, and perhaps some creative AI experiments.
+- **Get Certified:** Certifications aren't necessary, but they are a badge to post on LinkedIn to help demonstrate knowledge.
 - **Documenting the Journey:** I plan to transform this space into a personal blog, sharing my daily experiences, thoughts, and insights as I navigate through the vast ocean of AI.
 
 ## Why Am I Sharing This?
