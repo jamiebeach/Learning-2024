@@ -144,6 +144,20 @@
 - REST API available to get information about account, including access token.
 - ARM templates available
 
+### [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
+
+- Convolutional Neural Networks (CNN): common ML architecture for computer vision
+    - Use filters to extract numeric feature maps from images, and then feed the feature values into a deep learning model to generate a label prediction
+    - CNNs have been core to computer vision for years
+- Transformers
+    - Foundational to modern LLMs
+    - Work by processing huge volumes of data, and encoding language tokens (representing individual words or phrases) as vector-based embeddings (arrays of numeric values)
+    - The embeddings are created such that tokens that are commonly used in the same context are closer together dimensionally than unrelated words.
+ - Multi-modal models
+   - Takes concept of transformers and NLP models and applies to images
+   - Model is trained using a large volume of captioned images, with no fixed labels. An image encoder extracts features from images based on pixel values and combines them with text embeddings created by a language encoder. The overall model encapsulates relationships between natural language token embeddings and image features.
+   - Microsoft Florence is an example of a multi-modal model. Is also a **foundation** model (a pre-trained general model on which you can build multiple adaptive models for specialist tasks).
+
 ### Explore Azure AI Services for Vision (preview)
 - Microsoft's Florence large foundation model - significant improvements to image analysis and groundbreaking customization capabilities
 - Using updated Image Analysis 4.0 service, devs can use the Azure Computer Vision APIs to quickly and easily integrate image analysis functionality into applications.
@@ -239,19 +253,19 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 - **Intent** : represents a task or action the user wants to perform (ie. meaning of utterance)
 - [Supported pre-built entities](https://learn.microsoft.com/en-us/azure/ai-services/language-service/conversational-language-understanding/prebuilt-component-reference)
 
-
-    - 
-
-## [Machine Learning for Computer Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/2b-computer-vision-models)
-
-- Convolutional Neural Networks (CNN): common ML architecture for computer vision
-    - Use filters to extract numeric feature maps from images, and then feed the feature values into a deep learning model to generate a label prediction
-    - CNNs have been core to computer vision for years
-- Transformers
-    - Foundational to modern LLMs
-    - Work by processing huge volumes of data, and encoding language tokens (representing individual words or phrases) as vector-based embeddings (arrays of numeric values)
-    - The embeddings are created such that tokens that are commonly used in the same context are closer together dimensionally than unrelated words.
- - Multi-modal models
-   - Takes concept of transformers and NLP models and applies to images
-   - Model is trained using a large volume of captioned images, with no fixed labels. An image encoder extracts features from images based on pixel values and combines them with text embeddings created by a language encoder. The overall model encapsulates relationships between natural language token embeddings and image features.
-   - Microsoft Florence is an example of a multi-modal model. Is also a **foundation** model (a pre-trained general model on which you can build multiple adaptive models for specialist tasks).
+## [Create a custom text classification solution](https://learn.microsoft.com/en-us/training/modules/custom-text-classification/)
+- Part of NLP is the ability to classify text. Azure provides 
+- Types of classification projects :
+    - **Single label classification**
+    - **Multiple label classification**
+- False positive - model predicts x, but the file isn't labeled x.
+- False negative - model doesn't predict label x, but the file in fact is labeled x.
+- **Recall** - Of all the actual labels, how many were identified; the ratio of true positives to all that was labeled.
+- **Precision** - How many of the predicted labels are correct; the ratio of true positives to all identified positives.
+- **F1 Score** - A function of recall and precision, intended to provide a single score to maximize for a balance of each component
+- [Azure AI Evaluation Metrics](https://learn.microsoft.com/en-us/azure/ai-services/language-service/custom-text-classification/concepts/evaluation-metrics?azure-portal=true)
+- Custom Classification Workflow :
+- ![custom classification flow](https://learn.microsoft.com/en-us/training/wwl-data-ai/custom-text-classification/media/classify-development-lifecycle-small.png)
+- Split datasets for training : **Training dataset** and **Testing dataset**
+    - Random or manual splitting
+- Most usage of REST API for Azure AI Language service is asynchronous (get results using URI returned in original request header)  
