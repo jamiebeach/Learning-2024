@@ -10,7 +10,7 @@ One of Kevin Kelly's more famous quotes also happens to be, "the future happens 
 
 And AI will be at the center of it all...
 
-So now, the beginning of 2024, I am certain that I need to learn as much about artificial intelligence as I possibly can.
+So now, the beginning of 2024, I am certain that I need to (once again) learn as much about artificial intelligence as I possibly can.
 
 This is the goal. And this github repo will detail the journey.
 
