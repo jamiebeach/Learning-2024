@@ -1,6 +1,10 @@
 # Fine Tuning
 
-### What is Fine-Tuning?
+## Resources (Videos, Links, Tutorials)
+- [Fine-tuning Large Language Models (LLMs) | w/ Example Code](https://www.youtube.com/watch?v=eC6Hd1hFvos)
+  - This is a great video from [Shaw Talebi](https://www.youtube.com/@ShawhinTalebi) that discusses what fine-tuning is and how to create and use a LoRAto fine-tune a language model. Shaw includes code examples in the video and very clearly described every line of code and parameter used.
+
+## What is Fine-Tuning?
 
 Fine-tuning a Large Language Model (LLM), such as [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/), involves adjusting and refining the model's parameters specifically for a particular task or to better suit specific data. This process is essential when you want the model to perform well on a specific type of data or task that might not be well-represented in the training data used for the initial, broad training of the model. Here's a more detailed look at the process:
 
@@ -17,3 +21,12 @@ Fine-tuning a Large Language Model (LLM), such as [Mistral 7B](https://mistral.a
 6. **Application**: Once fine-tuned, the model is ready to be deployed in applications specific to the task it was trained for, with improved performance and accuracy in that domain compared to the original, non-fine-tuned model.
 
 Fine-tuning allows for the customization of large, general-purpose language models to specific needs and domains, making them more useful and effective in specialized applications.
+
+## Advantages
+
+- A smaller fine-tuned model can often out-perform a larger base model
+
+## LoRA
+
+- Low-Rank Adaptation model
+- Augments the base model with new trainable parameters
