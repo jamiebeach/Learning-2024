@@ -6,7 +6,7 @@ My original 2019 AI endevour was initially motivated by listening to an intervie
 
 ## The Future Happens Very Slowly and Then All at Once
 
-One of Kevin Kelly's more famous quotes also happens to be, "the future happens very slowly and then all at once." I think today, this resonates more than ever. The 2020's are, without a doubt, going to mark an exponential technological growth.
+One of Kevin Kelly's more famous quotes also happens to be, "the future happens very slowly and then all at once." I think today, this resonates more than ever. The 2020's are, without a doubt, going to mark an exponential explosive technological growth - with it all happening at once.
 
 And AI will be at the center of it all...
 
