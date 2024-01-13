@@ -1,3 +1,13 @@
+# Blog
+---
+## January-12
+---
+Today :
+- Went through another unit in the AI-102 self paced learning - [Create a custom text classification solution](https://learn.microsoft.com/en-us/training/modules/custom-text-classification/).
+- Spent some time reformatting the RESOURCES.md file
+- Read through the chapter in [The State of Open Source AI about fine tuning](https://book.premai.io/state-of-open-source-ai/fine-tuning/).
+- Watched a couple of youtube videos that reviewed LLMs
+  
 ## January-11
 ---
 This morning, I got through another hour of the AI-102 learning path. More delving into the natural language processing capabilities in Azure. I do wonder, however, if a number of these capabilites are really as significant as they may have been in previous years. NLP and language understanding have taken a sharp turn with ChatGPT and transformer based models in the last couple of years. So much so that larger LLMs are able to handle many of the more discrete capabilities that are built out in PaaS capabilities like the Azure AI Services... I dunno.. just a thought.
