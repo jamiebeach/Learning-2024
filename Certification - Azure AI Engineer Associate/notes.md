@@ -269,3 +269,20 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 - Split datasets for training : **Training dataset** and **Testing dataset**
     - Random or manual splitting
 - Most usage of REST API for Azure AI Language service is asynchronous (get results using URI returned in original request header)  
+
+### Create a custom named entity extraction solution
+- Custom named entity recognition (NER)
+- Extract people, place, thing from documents
+- Has built-in NER
+    - [Full list of things recognized here](https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/concepts/named-entity-categories?azure-portal=true&tabs=ga-api).
+- The Azure AI Language service enforces the following restrictions:
+    - Training - at least 10 files, and not more than 100,000
+    - Deployments - 10 deployment names per project
+    - APIs
+    - Authoring - this API creates a project, trains, and deploys your model. Limited to 10 POST and 100 GET per minute
+    - Analyze - this API does the work of actually extracting the entities; it requests a task and retrieves the results. Limited to 20 GET or POST
+    - Projects - only 1 storage account per project, 500 projects per resource, and 50 trained models per project
+    - Entities - each entity can be up to 500 characters. You can have up to 200 entity types.
+- Language Studio is the easiest way to label data
+- The confusion matrix allows you to visually identify where to add data to improve your model's performance.
+-

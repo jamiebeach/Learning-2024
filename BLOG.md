@@ -1,5 +1,13 @@
 # Blog
 ---
+## January-13
+---
+I spent a good chunk of time today going through LM Studio and recorded a video showing how well it runs on a fairly mediocre computer.
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/MZA66Nhspy0/0.jpg)](http://www.youtube.com/watch?v=MZA66Nhspy0 "Using LM Studio")
+
+Otherwise, I also spent a tiny bit of time on the AI-102 path, using Azure AI Service for entity extraction. Not as interesting as LLMs, admittedly.
+
+
 ## January-12
 ---
 Today :
