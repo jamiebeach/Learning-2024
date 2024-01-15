@@ -7,6 +7,10 @@ I also spent some time trying to organize my AI-102 notes into a mind map. I use
 
 [![Azure AI-102 Mindmap](./images/azure-ai-mindmap.svg)](./images/excalidraw/azure-ai-mindmap.excalidraw)
 
+I found a link online, from a reddit post, of a github library that has some transformer models from scratch. It's called [MinT : Minimal Transformer Library and Tutorials](https://github.com/dpressel/mint). Looks interesting and was recommended as a study aid for transformers and LLMs. Added it to the resources list.
+
+I finished the night with another unit from AI-102 learning path.
+
 ## January-13
 I spent a good chunk of time today going through LM Studio and recorded a video showing how well it runs on a fairly mediocre computer.
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/MZA66Nhspy0/0.jpg)](http://www.youtube.com/watch?v=MZA66Nhspy0 "Using LM Studio")

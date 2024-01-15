@@ -285,4 +285,23 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     - Entities - each entity can be up to 500 characters. You can have up to 200 entity types.
 - Language Studio is the easiest way to label data
 - The confusion matrix allows you to visually identify where to add data to improve your model's performance.
--
+
+### Translate text with Azure AI Translator service
+- API for translating text between 90 supported languages
+- Capabilities :
+    - Language detection.
+    - One-to-many translation.
+    - Script transliteration (converting text from its native script to an alternative script).
+- Language Detection :
+    - Detect endpoint
+- Translation
+- Transliteration :
+    - translate to different script. Ex : Japanese to latin script
+- Translation options :
+    - Word alignment
+    - Sentence length
+    - Profanity filtering (no action, marks, deleted)
+- Custom translations :
+    -  you can create a custom model that maps your own sets of source and target terms for translation
+    - assigns new category that you can use as parameter
+    
