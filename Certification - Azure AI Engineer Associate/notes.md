@@ -305,3 +305,17 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     -  you can create a custom model that maps your own sets of source and target terms for translation
     - assigns new category that you can use as parameter
     
+### Azure AI Speech
+- Speech to text
+    - Speech to text API, which is the primary way to perform speech recognition.
+    - Speech to text Short Auido API, optimized for short streams of audio (60 seconds)
+- Text to speech
+    - Text to speech API, which is the primary way to perform speech synthesis.
+    - Batch synthesis API, which is designed to support batch operations that convert large volumes of text to audio
+    - Can configure audio format and voices
+        - standard voices
+        - neutral voices
+    - Speech synthesis markup language (SSML). XML based syntax offers greater control over how the spoken output sounds.
+- Speech translation
+- Speaker recognition
+- Intent recognition
