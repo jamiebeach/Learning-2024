@@ -1,5 +1,11 @@
 # Blog
 ---
+## January-15
+- Watched more of Savill's AI-102 cram video. 
+- Did the AI-102 [Speech recognition and synthesis lab](./Certification%20-%20Azure%20AI%20Engineer%20Associate/labs/ai-language/07-speech/)
+- When doing the speech synthesis lab, I was actually surprised about the quality of the voice synthesis. I'm used to ElevenLabs voice synth and Microsoft's voices were actually pretty good. MS has a voice gallery as well, located here : [https://speech.microsoft.com/portal/voicegallery](https://speech.microsoft.com/portal/voicegallery).
+- I was using LM Studio with Mistral 7b instruct today and was once again amazed at the fact that I was running this AI with such broad knowledge and high inferencing capabilities on my laptop. I just can't wrap my head around the fact that all it takes is a roughly 5gb model file. It's truly mind blowing.
+
 ## January-14
 Woke up this morning and got caught up on all the AI happenings at CES 2024 with [Matt Wolfe's new CES coverage video](https://youtu.be/H91PyQjuw2Y?si=pbm7B6vqvpasPTFx). I think I also saw some tweets this am that if people see the word, AI, one more time they will lose it.
 
