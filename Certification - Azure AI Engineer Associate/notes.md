@@ -317,5 +317,47 @@ Ocp-Apim-Subscription-Key="The key to your resource"
         - neutral voices
     - Speech synthesis markup language (SSML). XML based syntax offers greater control over how the spoken output sounds.
 - Speech translation
+    - Similar to speech recognition, with addition of source and target languages
+    - TranslationRecognizer returns translated transcriptions of spoken input - essentially translating audible speech to text.
+    - Can synthesize the translated speech in one of 2 ways :
+        - Event-based : Set voice in TranslationConfig; Create event handler in TranslationRecognizer Synthesizing event; use Result.getAudio() method. Can only use when translating to single target language.
+        - Manual : Use TranslationRecognizer to get translated text; use a SpeechSynthesizer to synthesize voice. 
 - Speaker recognition
 - Intent recognition
+
+## [Knowledge Mining and Cognitive Search](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/)
+
+### [Azure AI Search](https://learn.microsoft.com/en-us/training/modules/create-azure-cognitive-search-solution/)
+- Azure AI Search provides a cloud-based solution for indexing and querying a wide range of data sources, and creating comprehensive and high-scale search solutions.
+    - Index documents
+    - Enrich index data
+    - Extract insights for analysis
+- **Replicas** : instance of the search service. 
+- **Partitions** : divide index into multiple storage locations - allows for splititng I/O operations.
+- Number of search units = number of replicas * number of partitions. (R*P=SU)
+- Supports multiple data source types : 
+    - Unstructured files in blog storage container
+    - Tables in Azure SQL Database
+    - Documents in CosmosDB
+- Apps can also push data directly into the index with JSON
+- Can apply AI (skills) as part of indexing process
+- The indexer is the engine that drives the overall indexing process.
+- Outputs from each skill can be used as inputs into following skills
+- Full text search - Lucene query syntax
+    - Lucene : Simple vs Full
+- Query processing consists of four stages:
+    1. Query Parsing
+    2. Lexical analysis
+    3. Document retrieval
+    4. Scoring
+- Query filters : 
+    - Include filter criteria in a simple search expression.. OR
+    - Provide OData filter expression as $filter
+- Facets : a useful way to present users with filtering criteria based on field values in a result set
+    - To use facets, you must specify facetable fields
+- Sorting results : by default : relevance
+- Search as you type
+    - Retrieval 
+    - Autocomplete
+- Custom scoring : by default, search results sorted by relevance. Calculated based on a term-frequency/inverse-document-frequency (TF/IDF) algorithm.
+- Synonym Maps

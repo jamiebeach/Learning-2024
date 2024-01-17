@@ -1,5 +1,16 @@
 # Blog
 ---
+## January-16
+![deep learning text book](./images/20240116-deeplearning.jpg)
+I bought Ian Goodfellow's Deep Learning text book in 2019, from ebay, I think. I never read it though. So tonight I started reading through the first chapter. I'm going to try and get through some of it - especially part 1 of the book that goes through the necessary math fundamentals.
+
+Additionally, I was looking at the code for the build Bert from scratch tutorial from the MiNT repo. There is some parts of it that I understand but others, no ideas. I think having some understanding of transformers at a high level is needed. So I turned to ChatGPT and asked for an ELI5 on Transformers. ChatGPT did not disappoint.
+![ChatGPT ELI5 Transformers - did not disappoint](./images/20240116-chatgpt_eli5_transformers.jpg)
+
+Found that Hugging Face now has a social network of its own on its site. Some interesting posts. Will be another source of daily AI news for me (and many others, I'm sure). -> [Hugging Face Posts](https://huggingface.co/posts)
+
+Finished the Natural Language Processing module in the AI-102 learning path (finally).
+
 ## January-15
 - Watched more of Savill's AI-102 cram video. 
 - Did the AI-102 [Speech recognition and synthesis lab](./Certification%20-%20Azure%20AI%20Engineer%20Associate/labs/ai-language/07-speech/)
