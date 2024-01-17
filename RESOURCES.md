@@ -30,3 +30,4 @@
 |[Anti-Hype LLM Reading List](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)| Amazing collection of links that are reasonable and good explanations of how LLMs work. | 
 | [Intro to Large Language Models, Andrej Karpathy](https://youtu.be/zjkBMFhNj_g?si=yDJ0dXxDEtGR87FH) | A 1 hour general-audience introduction to Large Language Models. Crisp and incredibly well done. Includes links to slides in the description |
 | [MinT - Minimal Transformer Library and Tutorials](https://github.com/dpressel/mint) | A minimalistic implementation of common Transformers from scratch! | 
+| [ The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) | An annotated version of the og Transformer paper in a notebook format |
