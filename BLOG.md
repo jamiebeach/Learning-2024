@@ -1,5 +1,10 @@
 # Blog
 ---
+## January-17
+- Got through a couple more units on the AI-102 path.
+- I tried doing the knowledge mining lab without using the setup scripts that they provided. Spent a good hour trying to fix something that I didn't do correctly before bailing. Clearly they provided setup scripts for a reason.
+- Read the first chapter of Understanding Deep Learning, by Simon J.D. Prince. Seems like a good book. I took a look on ebay and Amazon and since it's a text book, it's quite expensive. Glad that the first 21 chapters are available for free. I just hate reading on my laptop :/
+
 ## January-16
 ![deep learning text book](./images/20240116-deeplearning.jpg)
 I bought Ian Goodfellow's Deep Learning text book in 2019, from ebay, I think. I never read it though. So tonight I started reading through the first chapter. I'm going to try and get through some of it - especially part 1 of the book that goes through the necessary math fundamentals.

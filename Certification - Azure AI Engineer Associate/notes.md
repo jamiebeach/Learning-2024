@@ -361,3 +361,15 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     - Autocomplete
 - Custom scoring : by default, search results sorted by relevance. Calculated based on a term-frequency/inverse-document-frequency (TF/IDF) algorithm.
 - Synonym Maps
+
+### [Knwoledge Mining with Cognitive Search](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/)
+- Implement custom skills as web-hosted services (such as Azure Functions) that support the required interface.
+- Must impement expected schema: JSON structure; input and output schemas.
+- Custom.WebApiSkill skill type
+- Skill definition : 
+    - Specifies API endpoint URI
+    - Set context re: which point in document hierarchy skill can be called
+    - Assign input values
+    - Store output in new field
+
+
