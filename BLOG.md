@@ -1,5 +1,9 @@
 # Blog
 ---
+## January-18
+- Spent a bit of time going through the math fundamentals from the  Machine Learning, Data Science and Generative AI with Python course on Udemy. I ended up [creating my own jupyter notebook](./Maths/exercises.ipynb) for it and used ChatGPT to add extra details around the various functions and topics. It's actually a pretty good primer on the statistics side of things.
+- Did the knowledge store unit and lab as well as the enrichment with language studio lab in AI-102 self-paced. I'm going to need to start doing more than just a single unit per day. At this rate it will otherwise be a month before I'm completed all the units :/
+
 ## January-17
 - Got through a couple more units on the AI-102 path.
 - I tried doing the knowledge mining lab without using the setup scripts that they provided. Spent a good hour trying to fix something that I didn't do correctly before bailing. Clearly they provided setup scripts for a reason.
@@ -7,9 +11,10 @@
 
 ## January-16
 ![deep learning text book](./images/20240116-deeplearning.jpg)
-I bought Ian Goodfellow's Deep Learning text book in 2019, from ebay, I think. I never read it though. So tonight I started reading through the first chapter. I'm going to try and get through some of it - especially part 1 of the book that goes through the necessary math fundamentals.
 
-Additionally, I was looking at the code for the build Bert from scratch tutorial from the MiNT repo. There is some parts of it that I understand but others, no ideas. I think having some understanding of transformers at a high level is needed. So I turned to ChatGPT and asked for an ELI5 on Transformers. ChatGPT did not disappoint.
+I bought [Ian Goodfellow's Deep Learning text book](https://www.deeplearningbook.org/) in 2019, from ebay, I think. I never read it though. So tonight I started reading through the first chapter. I'm going to try and get through some of it - especially part 1 of the book that goes through the necessary math fundamentals. It's [free online](https://www.deeplearningbook.org/) and worth checking out.
+
+Additionally, I was looking at the code for the build Bert from scratch tutorial from the [MiNT repo](https://github.com/dpressel/mint). There is some parts of it that I understand but others, no ideas. I think having some understanding of transformers at a high level is needed. So I turned to ChatGPT and asked for an ELI5 on Transformers. ChatGPT did not disappoint.
 ![ChatGPT ELI5 Transformers - did not disappoint](./images/20240116-chatgpt_eli5_transformers.jpg)
 
 Found that Hugging Face now has a social network of its own on its site. Some interesting posts. Will be another source of daily AI news for me (and many others, I'm sure). -> [Hugging Face Posts](https://huggingface.co/posts)
