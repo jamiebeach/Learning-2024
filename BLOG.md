@@ -1,5 +1,10 @@
 # Blog
 ---
+## January-19
+- Cointuined working on the [Maths ipynb notebook](./Maths/exercises.ipynb) with math things related to AI. Wen through conditional probability and bayes' theorem. 
+- Worked through 2 units in the AI-102 course : Advanced Search features with Cognitive Search and building an Azure Machine Learning Custom skill with Azure Cognitive Search.
+- I also created a [python notebook to review some fundamental concepts of gradient descent](./Fundamentals/GradientDescent.ipynb). I remember a fair bit of the basics from the Coursera course that I did in 2019, but thought I'd put something together to review again.
+
 ## January-18
 - Spent a bit of time going through the math fundamentals from the  Machine Learning, Data Science and Generative AI with Python course on Udemy. I ended up [creating my own jupyter notebook](./Maths/exercises.ipynb) for it and used ChatGPT to add extra details around the various functions and topics. It's actually a pretty good primer on the statistics side of things.
 - Did the knowledge store unit and lab as well as the enrichment with language studio lab in AI-102 self-paced. I'm going to need to start doing more than just a single unit per day. At this rate it will otherwise be a month before I'm completed all the units :/

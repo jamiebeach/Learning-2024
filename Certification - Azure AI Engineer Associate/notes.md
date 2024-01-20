@@ -391,3 +391,32 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 - Conversational language understanding aims to build a model that predicts intention from conversational text. For example, imagine an email app that you can chat with to send email messages or flag emails.
 - The most flexible way to create a Language Studio project is to first create your language service using the Azure portal. If you choose this option, you get the option to add custom features.
 - be default it will use 80% of the documents to train the model and 20% to blind test it
+
+### [Knowledge Mining with Cognitive Search](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/)
+- Azure Cognitive Search implements an enhanced version of Apache Lucene for full text search.
+- Stages of Query Processing : 
+    - Query Parsing
+    - Lexical Analysis
+    - Document retrieval
+    - Scoring
+- You can tell the search explorer to use the Lucene Query parser by adding &queryType=full to the query string.
+- Lucene syntax, you can write more precise queries.
+- Can boost search terms : Category:luxury^3
+- Azure Cognitive Search uses the BM25 similarity ranking algorithm. The algorithm scores documents based on the search terms used.
+- The search engine scores the documents returned from the first three phases. The score is a function of the number of times identified search terms appear in a document, the document's size, and the rarity of each of the terms. 
+- By default search results are ordered by their search score
+- Cognitive Search lets you influence a document score using scoring profiles.
+- The scoring profile can also include functions, for example, distance or freshness. Functions provide more control than simple weighting, for example, you can define the boosting duration applied to newer documents before they score the same as older documents.
+- You can add up to 100 scoring profiles to a search index.
+- Functions can be used in scoring profile - magnitude, freshness, distance, tag
+- If you don't specify an analyzer for a field, the default lucene analycer is used.
+- Microsoft provieds 50 analyzers across different languages
+- Specialized analyzers exist too - language-agnostic. (ex : patternAnalyzer)
+- A custom analyzer consists of: 
+    - Character filters. These filters process a string before it reaches the tokenizer.
+    - Tokenizers. These components divide the text into tokens to be added to the index.
+    - Token filters. These filters remove or modify the tokens emitted by the tokenizer.
+- The tokenizer is the component that divides the text into the tokens that will be stored in the index. 
+- 13 different tokenizers to choose from.
+- After tokenization can apply token filtering. 41 filters available.
+- Analyze Text with REST api - submit text and ensure tokens returned properly.
