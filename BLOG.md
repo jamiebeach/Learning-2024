@@ -1,5 +1,12 @@
 # Blog
 ---
+## January-20
+- I worked a bit more tinkering around with gradient descent. I used chatgpt again as a bit of a tutor. I'd ask it questions about gradient descent and then dig further into the subject, asking more questions. It's amazing how many new ways of learning are emerging.
+- Some updates on the [gradient descent notebook](./Fundamentals/GradientDescent.ipynb) as a result.
+- It's Saturday, so I got caught up with Mat Wolfe's new AI video. He spent a bit of time discussing the new Apple Vision Pro. I've spent quite a bit of time discussing AVP as well on Threads. It's going to be an interesting launch. Apple has sold out of initial stock and I'm certain it's going to continue to sell well, but I'm also seeing a lot of people unimpressed with the price tag and some other things. I really wonder where Apple is with respect to AI. I know they have been cointinuing to submit papers and their silicon has AI capabilities. But they don't seem to be at the forefront with this new AI paradigm for whatever reason and that's not good for them. Meanwhile, their Vision Pro competitor (Meta) has a multi-vector strategy and is leaning way more in on AI. In fact, Meta will be purchasing just as many new H100 AI accelerators as Microsoft will be in 2024. It's actually insane.
+- Did another 2 units of AI-102 selt-learning. Still on Cognitive Search.
+- Also went skiing this morning and listened to about an hour of The Coming Wave audiobook. 
+
 ## January-19
 - Cointuined working on the [Maths ipynb notebook](./Maths/exercises.ipynb) with math things related to AI. Wen through conditional probability and bayes' theorem. 
 - Worked through 2 units in the AI-102 course : Advanced Search features with Cognitive Search and building an Azure Machine Learning Custom skill with Azure Cognitive Search.

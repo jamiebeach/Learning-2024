@@ -420,3 +420,37 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 - 13 different tokenizers to choose from.
 - After tokenization can apply token filtering. 41 filters available.
 - Analyze Text with REST api - submit text and ensure tokens returned properly.
+
+### [Search Data Outside of Azure](https://learn.microsoft.com/en-us/training/modules/search-data-outside-azure-platform-cognitive-search/02-index-data-from-external-data-sources-factory)
+- Push data from external data sources using Azure Data Factory
+    - zero code option
+    - index needs to be created first (ADF can't create indexes yet)
+- Azure Cognitive Search Push API
+    - Most flexible way to push data into Cognitive Search
+    - Batch documents in the request up to 1000 documents or 16 MB total in size
+
+### [Maintain an Azure Cognitive Search Solution](https://learn.microsoft.com/en-us/training/modules/maintain-azure-cognitive-search-solution/01-introduction?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.implement-knowledge-mining-azure-cognitive-search)
+- Secure ACS by focusing on :
+    - Inbound search requests made by users to your search solution
+    - Outbound requests from your search solution to other servers to index documents
+    - Restricting access at the document level per user search request
+- Encrypts data with service managed keys
+- Can use Azure Key Vault
+    - an advantage of using your own keys with AKV is that double encryption will be enabled on all objects you use custom keys on.
+- Use firewall to restrict ingress
+- Harden with expressroute, azure gateway and app service
+- Default auth is key based. Admin and Query keys
+- Can use RBAC 
+    - Grant roles to administrator
+    - Define roles for querying
+- Can restrict which documents a user can search using search.in filter
+- Measure performance with diagnostics settings
+    - select alllogs and allmetrics and send to log analytics
+- How your search queries perform is directly connected to the size and complexity of your indexes. The smaller and more optimized your indexes, the fast Azure Cognitive Search can respond to queries.
+- Can scale out your index for performance. Up to 12 partitions.
+- MAke highly available
+    - 2 replicas guarantee 99.9% for queries
+    - 3 or more replicas guarantee 99.9% for both querynig and indexing
+    - Use availability zones (at least standard tier)
+- Azure Monitor
+- Write Kusto queries against ACS logs
