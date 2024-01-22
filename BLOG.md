@@ -4,6 +4,7 @@
 - Watched more of Savill's AI-102 crash course (just about 20 minutes to go)
 - Listened to about an hour of The Coming Wave
 - Created a [Matrix Algebra for Machine Learning study page here](./Maths/Matrix.ipynb).
+- Finished reading the first chapter of Deep Learning.
 - Finally finished all the Cognitive Search AI-102 self-paced training. More badges!
 - ![cognitive AI-102 badges](./images/20230121-cognitivesearchbadges.jpg)
 
