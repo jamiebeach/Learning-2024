@@ -1,5 +1,13 @@
 # Blog
 ---
+## January-22
+
+**Interesting Links**
+- [Depth Anything](https://huggingface.co/posts/akhaliq/355654182325805) ([project page](https://depth-anything.github.io/))
+- [Axolotl GPU Poor LLM Fine-Tuning](https://github.com/OpenAccess-AI-Collective/axolotl)
+- [Transformers.js](https://huggingface.co/docs/transformers.js/index)
+
+
 ## January-21
 - Watched more of Savill's AI-102 crash course (just about 20 minutes to go)
 - Listened to about an hour of The Coming Wave
