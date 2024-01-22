@@ -1,5 +1,12 @@
 # Blog
 ---
+## January-21
+- Watched more of Savill's AI-102 crash course (just about 20 minutes to go)
+- Listened to about an hour of The Coming Wave
+- Created a [Matrix Algebra for Machine Learning study page here](./Maths/Matrix.ipynb).
+- Finally finished all the Cognitive Search AI-102 self-paced training. More badges!
+- ![cognitive AI-102 badges](./images/20230121-cognitivesearchbadges.jpg)
+
 ## January-20
 - I worked a bit more tinkering around with gradient descent. I used chatgpt again as a bit of a tutor. I'd ask it questions about gradient descent and then dig further into the subject, asking more questions. It's amazing how many new ways of learning are emerging.
 - Some updates on the [gradient descent notebook](./Fundamentals/GradientDescent.ipynb) as a result.
