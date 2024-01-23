@@ -4,6 +4,8 @@
 ## ToC
 - [Blog](./BLOG.md)
 - [Resources](./RESOURCES.md)
+- [Math Notebooks](./Maths/)
+- [Machine Learning Fundamentals Notebooks](./Fundamentals/)
 - Certifications
   - [Azure AI Engineering Associate - AI-102](./Certification%20-%20Azure%20AI%20Engineer%20Associate/notes.md)
 - [LLM](./LLM)
