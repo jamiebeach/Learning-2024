@@ -6,6 +6,7 @@
 | [The State of Open Source AI](https://github.com/premAI-io/state-of-open-source-ai) | 2023 | **FREE** an open source book about the state of open source AI |
 | [Understanding Deep Learning](https://udlbook.github.io/udlbook/) | 2023-12-24 | **FREE** I read somewhere that this was the one book to rule them all |
 | [Deep Learning, Ian Goodfellow](https://www.deeplearningbook.org/) | 2016 | **FREE online** I purchased this one in 2019 from eBay. It's a textbook but it's really quite good |  
+| [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) | 2022, 2012 | **FREE online** Foundational ML book from Kevin Patrick Murphy. updated 2022 |
 | [The Coming Wave, Mustafa Suleyman](https://www.the-coming-wave.com/) | 2023-09-05 | Great read. Similar to Life 3.0 or Superintelligence. Warnings of what's to come with AI |
 
 ### *Fiction*
