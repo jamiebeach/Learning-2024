@@ -1,5 +1,9 @@
 # Blog
 ---
+## January-23
+- Interesting links:
+    - [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html)
+
 ## January-22
 
 - I started on the next unit in the AI-102 path
