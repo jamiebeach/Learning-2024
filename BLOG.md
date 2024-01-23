@@ -2,11 +2,13 @@
 ---
 ## January-22
 
-**Interesting Links**
-- [Depth Anything](https://huggingface.co/posts/akhaliq/355654182325805) ([project page](https://depth-anything.github.io/))
-- [Axolotl GPU Poor LLM Fine-Tuning](https://github.com/OpenAccess-AI-Collective/axolotl)
-- [Transformers.js](https://huggingface.co/docs/transformers.js/index)
-
+- I started on the next unit in the AI-102 path
+- Listened to another chapter of The Coming Wave. Really enjoying this book, despite it being very pessimistic of the future of AI.
+- I also came across a number of neat links this morning from the Hugging Face Posts :
+    - [Depth Anything](https://huggingface.co/posts/akhaliq/355654182325805) ([project page](https://depth-anything.github.io/))
+    - [Axolotl GPU Poor LLM Fine-Tuning](https://github.com/OpenAccess-AI-Collective/axolotl)
+    - [Transformers.js](https://huggingface.co/docs/transformers.js/index)
+- And finally, I am nearly done with Savill's AI-102 crash course video. Watched some more tonight while lifting some weights.
 
 ## January-21
 - Watched more of Savill's AI-102 crash course (just about 20 minutes to go)

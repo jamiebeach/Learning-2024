@@ -492,3 +492,29 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 ### Embeddings
 -An embedding is type of data representation that is used by machine learning models. An embedding represents the semantic meaning of a piece of text. You can visualize an embedding as an array of numbers, and the numerical distance between two embeddings represents their semantic similarity. For example, if two texts are similar, then their representations should also be similar.
 - Embedding space is the core of vector queries comprising all the vector fields from the same embedding model. It comprises of all the vector fields populated using the same model.
+
+
+## [Develop solutions with Azure AI Document Intelligence](https://learn.microsoft.com/en-us/training/paths/extract-data-from-forms-document-intelligence/)
+
+### [Plan an Azure AI Document Intelligence solution](https://learn.microsoft.com/en-us/training/modules/plan-form-recognizer-solution/)
+
+- **Azure AI Document Intelligence** is an Azure service that you can use to analyze forms completed by your customers, partners, employers, or others and extract the data that they contain.
+- Use a model to inform Azure AI Document Intelligence about the type of data you expect to be in the documents you're analyzing
+- Azure AI Document Intelligence outputs data in JSON format
+- Several pre-built models : 
+    - General document analysis :
+        - Read
+        - General document
+        - Layout
+    - Others expect specific forms :
+        - Invoice
+        - Receipt
+        - W-2 US Tax declaration
+        - ID DOcument
+        - Business card
+        - Health insurance card
+- Composed model : multiple custom models trained on different types of documents associated into single model.
+- Built on Azure AI Vision
+- Use Azure AI Visino with OCR for extracting simple words from photos. Use Azure AI DOcument Intelligence for more complicated documents.
+- Azure AI Document Intelligence Studio
+ 
