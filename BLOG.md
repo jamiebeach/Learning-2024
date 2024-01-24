@@ -3,6 +3,9 @@
 ## January-23
 - Interesting links:
     - [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html)
+- Did more AI-102 path - more document intelligence. Noticed that much of the Document Intelligence path is repeated numerous times. Kind of annoying. My notes actually reflect it a bit.
+- I added some more to the Matrix python notebook, including a fair bit of detail on orthogonal matrices. Also added some code that will produce matrix multiplication problems.
+- Above, I noted an interesting link : The full book, Probabilistic Machine Learning (Murphy) is available online at that link. It has a chapter that also goes deep into the math required for Machine Learning. It was first published in 2012 and has since been updated. Also(!) there are like 500 python notebooks available, on that link, that covers the entirety of the book. It's really quite incredible.
 
 ## January-22
 

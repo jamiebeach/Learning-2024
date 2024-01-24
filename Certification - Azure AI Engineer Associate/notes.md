@@ -517,4 +517,30 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 - Built on Azure AI Vision
 - Use Azure AI Visino with OCR for extracting simple words from photos. Use Azure AI DOcument Intelligence for more complicated documents.
 - Azure AI Document Intelligence Studio
- 
+
+### [Use prebuilt Azure AI Document Intelligence models](https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/)
+
+- If you want to use Document Intelligence to extract data from a common forms or documents, you can choose to use a prebuilt model and you don't have to train your own.
+- You must also comply with these requirements when you submit a form for analysis:
+    - The file must be in JPEG, PNG, BMP, TIFF, or PDF format. Additionally, the Read model can accept Microsoft Office files.
+    - The file must be smaller that 500 MB for the standard tier, and 4 MB for the free tier.
+    - Images must have dimensions between 50 x 50 pixels and 10,000 x 10,000 pixels.
+    - PDF documents must have dimensions less than 17 x 17 inches or A3 paper size.
+    - PDF documents must not be protected with a password.
+- Use api endpoint and api key (from portal) to call via REST API
+- Takes several seconds to respond, so best to call asynchronously.
+    - StartAnalyzeDocumentFromUriAsync()
+    - WaitForCompletionAsync()
+- If you want to extract text, languages, and other information from documents with unpredictable structures, you can use the read, general document, or layout models.
+- Read : read model extracts printed and handwritten text from documents and images
+    - TheIdeal if you want to extract words and lines from documents with no fixed or predictable structure.
+- General : extends read. Can identify entities such as people, organizations, dates.
+- layout model returns selection marks and tables from the input image or PDF file
+- Invoice model
+- Receipt model
+- ID document model
+- business card model
+- W-2 model
+
+### [Extract data from forms with Azure Document Intelligence](https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/)
+- Azure Document Intelligence is a Vision API that extracts key-value pairs and table data from form documents.
