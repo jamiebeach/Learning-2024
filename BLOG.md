@@ -1,5 +1,10 @@
 # Blog
 ---
+## January-24
+- Finished John Savill's AI-102 crash course video on Youtube. Not sure if it will help that much.
+- Finished the Azure Document Intelligence module on the AI-102 learning path. That one was really quite uninteresting for me, for some reason. The next (and last) module on the learning path is Gen AI with Azure OpenAI. I'm hoping this one is interesting. Will start it tomorrow night.
+- Continued learning matrix algebra. Read through some of Goodfellow's Deep Learning chatpter on linear algebra. He uses a lot of math notation to explain some things and as someone who isn't super familiar with it, I find myself constantly asking GPT4 to help me understand it further.
+
 ## January-23
 - Interesting links:
     - [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html)

@@ -544,3 +544,24 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 
 ### [Extract data from forms with Azure Document Intelligence](https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/)
 - Azure Document Intelligence is a Vision API that extracts key-value pairs and table data from form documents.
+
+### [Create a composed Form Recognizer model](https://learn.microsoft.com/en-us/training/modules/create-composed-form-recognizer-model/)
+- Composed models in Azure AI Document Intelligence enable users to submit a form when they don't know which is the best model to use.
+- You can create custom models of two types:
+    - **Custom template models** - consistent visual template. 
+    - **Custom neural models** - for when forms are less consistent, semi-structured or unstructured.
+- Can do 100's of custom models in single Azure AI Document Intelligence resource
+    - Depends on tier. Standard tier has many times more.
+- Once you have created a set of custom models, can assemble them into a composed model.
+    - Can use Azure AI Document Studio
+- Composed model has a modelid
+- Individual models in composed model can be identified with doctype in returned json
+
+
+### [Build an Azure AI Document Intelligence custom skill for Azure Cognitive Search](https://learn.microsoft.com/en-us/training/modules/build-form-recognizer-custom-skill-for-azure-cognitive-search/)
+
+- If you integrate Cognitive Search with an Azure AI Document Intelligence solution, you can enrich your index with fields that your Azure AI Document Intelligence models are trained to extract.
+- Use document intelligence for custom skillset for indexing
+
+
+## [Develop Generative AI solutions with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/)
