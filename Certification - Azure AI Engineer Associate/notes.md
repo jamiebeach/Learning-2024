@@ -565,3 +565,28 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 
 
 ## [Develop Generative AI solutions with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/)
+
+### [Get started with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/modules/get-started-openai/)
+- currently in limited access
+- **Azure OpenAI Studio**
+- Types of generative AI models :
+    - GPT-4
+    - GPT-3.5
+    - Embeddings
+    - DALL-E
+- For chat based models, use chat completions for api calls
+- Azure OpenAI Studio has a playground (looks similar to OpenAI playground)
+- **Temperature** : controls randomness. Higher = more random\creative
+- **Max Length** : limits number of tokens per response. 4000 max. Token is about 4 characters.
+- **Stop Sequences** : Make responses stop at a desired point such as end of sentence.
+- **Top Probabilities** : Like temperature. Controls randomness. Higher = more random.
+- **Frequency Penalty** : Reduce chance of repeating token.
+- **Presence Penalty** : Reduce chance of repeating token.
+- **Pre-Response Text** : Insert text after input and before model's response. Can help prepare the response.
+- **Post-Response Text** : Insert text after the model's response to encourage further input.
+
+### [Build natural language solutions with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/modules/build-language-solution-azure-openai/)
+- Endpoints :
+    - Completion - model takes an input prompt, and generates one or more predicted completions
+    - ChatCompletion - model takes input in the form of a chat conversation (where roles are specified with the message they send), and the next chat completion is generated
+    - Embeddings - model takes input and returns a vector representation of that input

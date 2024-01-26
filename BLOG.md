@@ -1,5 +1,11 @@
 # Blog
 ---
+## January-25
+- Went through a couple of lessons in the [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/share/101W9O3@VqPjR6sljJFflMO_mBMY8Uscvj2cNVU9fw6gIJ3_CPRQtxm9pkSp6Rl7etLlW3dl/) course. Mostly about regression and fitting with multi-order polynomial equations. Also went through his lesson on naieve Bayes and spam filtering. I've seen that one many times before.
+- Did a couple of lessons in the AI-102 path for Azure OpenAI. But two things :
+    1. First, it's basically just OpenAI. So if you have ever used OpenAI Playground or the REST endpoints, you're gold.
+    2. Second, Azure OpenAI isn't available to everyone - you need to apply and for individuals, it doesn't appear like you can easily get it. Which is a bummer. Despite this, the exam guide has a 10-15% OpenAI content.
+
 ## January-24
 - Finished John Savill's AI-102 crash course video on Youtube. Not sure if it will help that much.
 - Finished the Azure Document Intelligence module on the AI-102 learning path. That one was really quite uninteresting for me, for some reason. The next (and last) module on the learning path is Gen AI with Azure OpenAI. I'm hoping this one is interesting. Will start it tomorrow night.
