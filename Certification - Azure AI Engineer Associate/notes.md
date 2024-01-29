@@ -1,5 +1,7 @@
 # [Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-102/)
 
+[![Azure AI-102 Mindmap](../images/azure-ai-mindmap.svg)](../images/azure-ai-mindmap.svg)
+
 ## [Get Started with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai/?ns-enrollment-type=Collection)
 
 ### Define Artificial Intelligence
@@ -252,6 +254,9 @@ Ocp-Apim-Subscription-Key="The key to your resource"
 - **Utterances** : phrases that a user might enter
 - **Intent** : represents a task or action the user wants to perform (ie. meaning of utterance)
 - [Supported pre-built entities](https://learn.microsoft.com/en-us/azure/ai-services/language-service/conversational-language-understanding/prebuilt-component-reference)
+- Add phrase : AddPhraseListAsync(appId, versionId, new PhraselistCreateObject(...))
+- To run via docker : 
+    - docker run command. docker run --rm -it -p 5000:5000 --memory 8g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment Eula=accept Billing={ENDPOINT_URI} ApiKey={API_KEY}
 
 ### [Create a custom text classification solution](https://learn.microsoft.com/en-us/training/modules/custom-text-classification/)
 - Part of NLP is the ability to classify text. Azure provides 
@@ -324,6 +329,10 @@ Ocp-Apim-Subscription-Key="The key to your resource"
         - Manual : Use TranslationRecognizer to get translated text; use a SpeechSynthesizer to synthesize voice. 
 - Speaker recognition
 - Intent recognition
+- Direct Line Speech : end-to-end solution for creating a flexible, extensible voice assistant. It's powered by the Bot Framework and its Direct Line Speech channel, that is optimized for voice-in, voice-out interaction with bots.
+    - Could create a voice assistant bot with this.
+
+
 
 ## [Knowledge Mining and Cognitive Search](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/)
 
@@ -332,7 +341,7 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     - Index documents
     - Enrich index data
     - Extract insights for analysis
-- **Replicas** : instance of the search service. 
+- **Replicas** : instance of the search service. Can increase speed\resiliency. 
 - **Partitions** : divide index into multiple storage locations - allows for splititng I/O operations.
 - Number of search units = number of replicas * number of partitions. (R*P=SU)
 - Supports multiple data source types : 
@@ -454,6 +463,8 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     - Use availability zones (at least standard tier)
 - Azure Monitor
 - Write Kusto queries against ACS logs
+- Customer-managed keys require an additional billable service, Azure Key Vault, which can be in a different region, but under the same subscription, as Azure Cognitive Search.
+- Enabling Customer-managed keys (CMK) encryption will increase index size and degrade query performance.
 
 ### [Implement knowledge mining with Azure Cognitive Search](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/)
 - **Semantic Search** : Semantic search is a capability within Azure Cognitive Search that aims to improve the ranking of search results. Semantic search improves the ranking of search results by using language understanding to more accurately match the context of the original query.
@@ -556,6 +567,8 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     - Can use Azure AI Document Studio
 - Composed model has a modelid
 - Individual models in composed model can be identified with doctype in returned json
+- Format must be JPG, PNG, PDF (text or scanned), or TIFF. Text-embedded PDFs are best because there's no possibility of error in character extraction and location.
+- File size must be less than 50 MB.
 
 
 ### [Build an Azure AI Document Intelligence custom skill for Azure Cognitive Search](https://learn.microsoft.com/en-us/training/modules/build-form-recognizer-custom-skill-for-azure-cognitive-search/)

@@ -1,5 +1,21 @@
 # Blog
 ---
+## January-28
+- I finished the codee for the Depth Anything model generated video depth-maps rendering with three.js app. Very cool. It had a fair bit of interest on Thread.net too.
+- [![video plus depth map rendering in webxr](./images/20240128_elephant.jpg)](https://www.threads.net/@jam1eb3ach/post/C2pWFBLgKTo)
+- I didn't release my code or publish it to my depthtube.com website yet. Still some work that I'd like to do with it.
+- Late last night I also finished the show, Pantheon. Such an interesting show. Season 1 was all about the dawn of uploaded intelligence. Season 2 went at such a lightning pace. It reminded me of Greg Egan's Diaspora book. From the first episode of Season 2, had no idea that by the end we'd be talking about dyson spheres. (sorry for any spoiler there).
+- Youtube video idea: how to setup a python environment on Windows with GPU accelerated CUDA and xFormers. I have a method for doing this that's fairly straight forward but I can't believe how difficult it usually is to get GPU accelerated CUDA + xformers working with windows python apps.
+- Got to question 46 on the examtopics sample questions. Feeling pretty comfortable with the AI-102 exam. Will book tomorrow I think.
+
+## January-27
+- Saturday. Spent a fair bit of time this morning trying to render the 3d video + AI generated depth map in webxr using three.js. I learned the hard way that webxr isn't available if the web server isn't using https. And I was just using the live server on vscode and I spent hours trying to figure out why navigator.xr was not defined. :/ Eventually figured it out though and got something running. Just working on a few kinks and then will post online.
+
+## January-26
+- I spent some time this evening trying out an experiment with the  [Depth Anything](https://huggingface.co/posts/akhaliq/355654182325805) model. I was successfully able to run it on my machine, even with cuda and xformers. And I successfully created a video + depth map. I then tried to run the video + depth map in a 3d video player that I put together a couple years back using three.js, that rendered videos captured on iphone with Record3D. Unfortunately it didn't work for some reason. I'm going to try again and implement a new vertex and fragment shader for the depth map output that this model creates because it seems very very solid. In fact, I'd love to be able to make it render in an augmented mixed reality experience.
+- Besides this experiment, I also watched [this neat TED Talk that](https://www.ted.com/talks/jim_fan_the_next_grand_challenge_for_ai) discusses a path to create foundational agent model, using transformers and leveraging the latest in 3d graphics for training environments. He talks about training on 10k "diverse simulated realities" which could maybe produce an agent scaled to be generalized for our physical world. Very cool talk.
+- Also started going through questions from an AI-102 exam question site.
+
 ## January-25
 - Went through a couple of lessons in the [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/share/101W9O3@VqPjR6sljJFflMO_mBMY8Uscvj2cNVU9fw6gIJ3_CPRQtxm9pkSp6Rl7etLlW3dl/) course. Mostly about regression and fitting with multi-order polynomial equations. Also went through his lesson on naieve Bayes and spam filtering. I've seen that one many times before.
 - Did a couple of lessons in the AI-102 path for Azure OpenAI. But two things :
