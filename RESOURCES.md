@@ -17,6 +17,7 @@
 
 ## Podcasts
 - [Practical AI Podcast](https://changelog.com/practicalai)
+- [This Day in AI](https://www.thisdayinai.com/)
 
 ## Courses
 - [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/share/101W9O3@VqPjR6sljJFflMO_mBMY8Uscvj2cNVU9fw6gIJ3_CPRQtxm9pkSp6Rl7etLlW3dl/)

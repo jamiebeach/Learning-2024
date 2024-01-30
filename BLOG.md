@@ -1,5 +1,14 @@
 # Blog
 ---
+## Janyary-29
+- Spent about 30 minutes putting this mock view together. It's kinda fortuitous that I purchased that domain, given the rising interest in virtual reality with Apple's Vision Pro nearly here.
+- ![depthtube mockup](./images/20240129-depthtubemockup.jpg).
+- Where AI and VR collide!
+- I also saw another person on Threads today experimenting with depth maps to produce a spatial image or video. Seems to be catching on :)
+- I booked my AI-102 exam for Feb 13. I feel pretty confident. I should probably go back through the self-paced learning to run through a couple of the labs. I don't believe there are any labs on this exam, but should play it safe.
+- I listened to the latest episode of [This Day in AI podcast](https://www.thisdayinai.com/). I haven't listened to this one yet, but I thoroughly enjoyed it. It gets less into the technical details of AI algorithms and touches on the more tangible things currently happening with AI. Similar to Matt Wolfe maybe, but in podcast form. Adding to the resource list.
+- Got through quite a few more questions in the sample exam. Feeling good. Updates my notes page as well as the mind map.
+
 ## January-28
 - I finished the codee for the Depth Anything model generated video depth-maps rendering with three.js app. Very cool. It had a fair bit of interest on Thread.net too.
 - [![video plus depth map rendering in webxr](./images/20240128_elephant.jpg)](https://www.threads.net/@jam1eb3ach/post/C2pWFBLgKTo)
