@@ -1,5 +1,12 @@
 # Blog
 ---
+## January-30
+- Took the train into Toronto this morning so had some time on it to do a lab from the AI-102 self-paced training. It was text classification, but really, it was just calling APIs on Azure to perform the text classification.
+- On the way back from Toronto this evening, I tried to do another lab, but had trouble with the Azure storage container being accessible from Language Studio. I'm not sure what I was doing wrong but even when I allowed anonymous access, language studio still could not see the storage container.
+- ![Zuck announcing Code Llama 70b](./images/20240130-zuck-llama70b.jpg)
+- This evening, got access to Meta's new [Code Llama models](https://github.com/facebookresearch/codellama). I haven't tried them yet but suspect that they will be integrated into LM Studio will have it integrated sooner or later.
+- Also spent some time putting together a new case and power supply and moving my pc to the new case. Took longer than I thought it would.
+
 ## Janyary-29
 - Spent about 30 minutes putting this mock view together. It's kinda fortuitous that I purchased that domain, given the rising interest in virtual reality with Apple's Vision Pro nearly here.
 - ![depthtube mockup](./images/20240129-depthtubemockup.jpg).
