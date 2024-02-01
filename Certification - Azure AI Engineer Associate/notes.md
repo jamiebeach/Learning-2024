@@ -2,6 +2,8 @@
 
 [![Azure AI-102 Mindmap](../images/azure-ai-mindmap.svg)](../images/azure-ai-mindmap.svg)
 
+## [Azure Cognitive Serivces API Reference](https://learn.microsoft.com/en-us/rest/api/cognitiveservices/?view=rest-cognitiveservices-translator-v3.0)
+
 ## [Get Started with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai/?ns-enrollment-type=Collection)
 
 ### Define Artificial Intelligence
@@ -105,7 +107,7 @@
 - There are two components to an object detection prediction:
     1. The class label of each object detected in the image.
     2. The location of each object within the image, indicated as coordinates of a bounding box that encloses the object.
-- Requires provisioning two resources:
+- Requires provisioning  resources:
     1. Training : An Azure AI Service or a Custom Vision (Training) Service
     2. Prediction : An Azure AI Service or a Custom Vision (Prediction) Service
 - Can use a single Azure AI Services resource for both training and prediction
@@ -269,9 +271,11 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     - **Multiple label classification**
 - False positive - model predicts x, but the file isn't labeled x.
 - False negative - model doesn't predict label x, but the file in fact is labeled x.
-- **Recall** - Of all the actual labels, how many were identified; the ratio of true positives to all that was labeled.
-- **Precision** - How many of the predicted labels are correct; the ratio of true positives to all identified positives.
-- **F1 Score** - A function of recall and precision, intended to provide a single score to maximize for a balance of each component
+- **Recall** - Of all the actual labels, how many were identified; the ratio of true positives to all that was labeled. Measures the model's ability to predict actual positive classes. It's the ratio between the predicted true positives and what was actually tagged. The recall metric reveals how many of the predicted classes are correct.
+Recall = #True_Positive / (#True_Positive + #False_Negatives)
+- **Precision** - How many of the predicted labels are correct; the ratio of true positives to all identified positives. Measures how precise/accurate your model is. It's the ratio between the correctly identified positives (true positives) and all identified positives. The precision metric reveals how many of the predicted classes are correctly labeled.
+Precision = #True_Positive / (#True_Positive + #False_Positive)
+- **F1 Score** - A function of recall and precision, intended to provide a single score to maximize for a balance of each component 
 - [Azure AI Evaluation Metrics](https://learn.microsoft.com/en-us/azure/ai-services/language-service/custom-text-classification/concepts/evaluation-metrics?azure-portal=true)
 - Custom Classification Workflow :
 - ![custom classification flow](https://learn.microsoft.com/en-us/training/wwl-data-ai/custom-text-classification/media/classify-development-lifecycle-small.png)
@@ -374,6 +378,7 @@ Ocp-Apim-Subscription-Key="The key to your resource"
     - Autocomplete
 - Custom scoring : by default, search results sorted by relevance. Calculated based on a term-frequency/inverse-document-frequency (TF/IDF) algorithm.
 - Synonym Maps
+- Parallel indexing : If you partition your data, you can create multiple indexer-data-source combinations that pull from each data source and write to the same search index. Because each indexer is distinct, you can run them at the same time, populating a search index more quickly than if you ran them sequentially : https://learn.microsoft.com/en-us/azure/search/search-howto-large-index#run-indexers-in-parallel
 
 ### [Knwoledge Mining with Cognitive Search](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/)
 - Implement custom skills as web-hosted services (such as Azure Functions) that support the required interface.

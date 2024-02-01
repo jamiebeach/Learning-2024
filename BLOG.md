@@ -1,5 +1,8 @@
 # Blog
 ---
+## January-31
+- Mostly spent this evening studying for the AI-102 exam. Maybe put an hour into going through pages of questions. Also found that the [Azure AI Cognitive Services API Reference](https://learn.microsoft.com/en-us/rest/api/cognitiveservices/?view=rest-cognitiveservices-translator-v3.0) is pretty useful to go through and memorize some of it. I may make a chart or table that provides a summary of them all. I tried to get ChatGPT to make one, but it started making things up. Smh.
+
 ## January-30
 - Took the train into Toronto this morning so had some time on it to do a lab from the AI-102 self-paced training. It was text classification, but really, it was just calling APIs on Azure to perform the text classification.
 - On the way back from Toronto this evening, I tried to do another lab, but had trouble with the Azure storage container being accessible from Language Studio. I'm not sure what I was doing wrong but even when I allowed anonymous access, language studio still could not see the storage container.
