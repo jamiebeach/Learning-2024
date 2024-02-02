@@ -1,5 +1,13 @@
 # Blog
 ---
+## February 1
+I didn't really get a chance today to do any studying, but I did end up discovering a couple of interesting AI projects out there related to both text to speech and another system like LMServer, but geared very much to telling stories and helping writing.
+
+[KoboldAI](https://github.com/KoboldAI/KoboldAI-Client/tree/main) is a browser based front-end for AI assisted writing and it works with multiple AI models. Very similar LMStudio, it is installed locally on your machine and you can run a bunch of models from huggingface. It has a chat interface and users can chat through a story with it. I tried a d&d like adventure and the results were pretty cool. At some points, the model that I was using forgot the plot and objective and most of the character back story, but whatever. Very neat.
+
+So neat, in fact, that I pretty much spent most of the evening getting it working and then trying it out.
+
+
 ## January-31
 - Mostly spent this evening studying for the AI-102 exam. Maybe put an hour into going through pages of questions. Also found that the [Azure AI Cognitive Services API Reference](https://learn.microsoft.com/en-us/rest/api/cognitiveservices/?view=rest-cognitiveservices-translator-v3.0) is pretty useful to go through and memorize some of it. I may make a chart or table that provides a summary of them all. I tried to get ChatGPT to make one, but it started making things up. Smh.
 
