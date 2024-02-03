@@ -3,7 +3,11 @@
 ## February 3
 - Morning spent playing with [Koboldcpp](https://github.com/LostRuins/koboldcpp). Finding more and more tools that allow for simple LLM usage on local machines. I'm learning that LLMs are a huge world of things that I really haven't even heard of. Forget just the transformers Machine learning algorithms - people have been working on many other things to make LLMs work better and better. I'm going to have to understand more of these things. The Koboldcpp FQA does a pretty good job of talkingt to various concepts at a high level, here : [https://github.com/LostRuins/koboldcpp/wiki](https://github.com/LostRuins/koboldcpp/wiki).
 
-<video width="500" src="https://github.com/jamiebeach/Learning-2024/raw/588778b345282517d676f7d8916f89a424a029c4/images/20240203-koboldcpp.mp4"></video>
+
+
+https://github.com/jamiebeach/Learning-2024/assets/1713892/8de33bb3-13c7-47d7-8f22-d66481b1ef8f
+
+[*video link*](https://github.com/jamiebeach/Learning-2024/raw/588778b345282517d676f7d8916f89a424a029c4/images/20240203-koboldcpp.mp4)
   
 ## February 2
 Once again, today I was playing with language models. I came across another tool that enables running text generation models on your local machine very easily. [Oobabooga Text-Generation-WebUI](https://github.com/oobabooga/text-generation-webui) claims to become for text-generation models, what [Automatic1111 WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) did for Stable Diffusion.
