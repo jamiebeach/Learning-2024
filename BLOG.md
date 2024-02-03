@@ -1,5 +1,14 @@
 # Blog
 ---
+## February 2
+Once again, today I was playing with language models. I came across another tool that enables running text generation models on your local machine very easily. [Oobabooga Text-Generation-WebUI](https://github.com/oobabooga/text-generation-webui) claims to become for text-generation models, what [Automatic1111 WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) did for Stable Diffusion.
+
+Here's a pic of me running the webui on my localhost, running some quantized version of some model from huggingface :
+
+![Oobabooga Text-Generation-WebUI](./images/20240202-text-gen-webui.jpg)
+
+I also created a [cheatsheet](./Certification%20-%20Azure%20AI%20Engineer%20Associate/APIs.md) for the cognitive services APIs for Azure AI-102.
+
 ## February 1
 I didn't really get a chance today to do any studying, but I did end up discovering a couple of interesting AI projects out there related to both text to speech and another system like LMServer, but geared very much to telling stories and helping writing.
 
