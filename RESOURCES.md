@@ -34,6 +34,10 @@
 | [Intro to Large Language Models, Andrej Karpathy](https://youtu.be/zjkBMFhNj_g?si=yDJ0dXxDEtGR87FH) | A 1 hour general-audience introduction to Large Language Models. Crisp and incredibly well done. Includes links to slides in the description |
 | [MinT - Minimal Transformer Library and Tutorials](https://github.com/dpressel/mint) | A minimalistic implementation of common Transformers from scratch! | 
 | [ The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) | An annotated version of the og Transformer paper in a notebook format |
+| [ Text-Generation : Kobold-Client](https://github.com/KoboldAI/KoboldAI-Client) | A browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author's Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Dungeon adventures. You can also turn on Adventure mode and play the game like AI Dungeon Unleashed. |
+| [ Text-Generation : Koboldcpp](https://github.com/LostRuins/koboldcpp) | KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models. It's a single self contained distributable from Concedo, that builds off llama.cpp, and adds a versatile Kobold API endpoint, additional format support, backward compatibility, as well as a fancy UI with persistent stories, editing tools, save formats, memory, world info, author's note, characters, scenarios and everything Kobold and Kobold Lite have to offer. |
+| [ Text-Generation : LMStudio](https://lmstudio.ai/) | Amazing tool for downloading and running many different text-generation models locally on your machine |
+| [ Text-Generation : oobabooga WebUI](https://github.com/oobabooga/text-generation-webui) | Very similar to Automatic1111 interface but this is for text-generation. Very cool tool. Assists with downloading and running models from HuggingFace. |
 
 ## Other
 | Link | Description |
