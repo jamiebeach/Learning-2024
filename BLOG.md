@@ -9,6 +9,9 @@ https://github.com/jamiebeach/Learning-2024/assets/1713892/8de33bb3-13c7-47d7-8f
 
 [*video link*](https://github.com/jamiebeach/Learning-2024/raw/588778b345282517d676f7d8916f89a424a029c4/images/20240203-koboldcpp.mp4)
   
+- This evening I worked more on my depth-anything depthtube platform. I finally have the videos playing properly in the react component. I'm not super great with React, but I figured it out.
+- I also spent some more time studying for AI-102. The exam is coming up quickly!
+
 ## February 2
 Once again, today I was playing with language models. I came across another tool that enables running text generation models on your local machine very easily. [Oobabooga Text-Generation-WebUI](https://github.com/oobabooga/text-generation-webui) claims to become for text-generation models, what [Automatic1111 WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) did for Stable Diffusion.
 
