@@ -1,5 +1,11 @@
 # Blog
 ---
+## February 4
+- Spent the moring reinstalling the Oobabooga Text-Generation-WebUI. Strangely I was getting some errors when I first installed it but then reinstalled and things worked out well. Then I played around some more with the tool and compared it to Kobold. Ooobabooga is clearly better. It's much faster on my machine without any changes to default parms.
+- After that, spent time working on [depthtube](https://depthtube.com). I got a couple things working and made a build that I deployed to the site.
+- This afternoon, I browsed around at various text-generaton models at Huggingface. I like the gguf models best because I can choose quantized versions with various levels of data loss. This lets me choose smaller files while maybe compromising a tiny bit of accuracy. Which works for me. [TheBloks](https://huggingface.co/TheBloke) is a great resource for so many gguf models. Some obscure, many new models like mistrel.
+- Tonight I went through a practice exam for AI-102. I failed with a 60% score, which I'm actually not to sad about. I went kinda quickly through it and didn't expect to pass. I have a whole bunch of practice exams that I got from udemy. On to practice exam 2!
+
 ## February 3
 - Morning spent playing with [Koboldcpp](https://github.com/LostRuins/koboldcpp). Finding more and more tools that allow for simple LLM usage on local machines. I'm learning that LLMs are a huge world of things that I really haven't even heard of. Forget just the transformers Machine learning algorithms - people have been working on many other things to make LLMs work better and better. I'm going to have to understand more of these things. The Koboldcpp FQA does a pretty good job of talkingt to various concepts at a high level, here : [https://github.com/LostRuins/koboldcpp/wiki](https://github.com/LostRuins/koboldcpp/wiki).
 
