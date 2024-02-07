@@ -50,6 +50,10 @@
     ```
     az vm identity assign -g <my-resource-group> -n <my-vm>
     ```
+- To protect cognitive services endpoints from access outside of Microsoft network :
+    - set Allow access from field to disabled under firewalls and virtual network. Denies all requests to consume cognitive services resources.
+    - setup a private endpoint connection. Create under "private endpoint connections". Traffic between cognitive service and target VNet routed exclusively through Azure backbone. Cognitive service will be assigned a private IP address from your VNet.
+
 ## Running as Containers
 - Azure AI services can be deployed as containers - either to AKS or even as a local container on-prem
 - Numerous Speech, Language, Vision and Decision containers are available.
