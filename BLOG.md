@@ -6,7 +6,7 @@
 ## February 6
 - Spent some time today working through an Language Model lab. Kaggle has a bunch of what looks like great tutorials and light courses that take the learner through building or using language models.
 - I spent about an hour working through [Getting Started with NLP for Absolute Beginners](https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners). It's really quite good and does a stellar job of covering overfitting and underfitting as well as linking out to some good resources about test data and evaluation metrics. My lab work is [here in this repo](./LLM/labs/getting-started-nlp-beginners/). The transformers library definitely needs more than 4gb or VRAM if running on GPU. I tried on my laptop that has an A1000 on it and it really just didn't work.
-- 
+- I ran it no problem on my RTX 470 Ti Super and noted that it took about 7.5Gb of VRAM to run. Probably could have run it CPU only though too.
 
 ## February 5
 - Light day with AI. Spent a fair bit of time playing once again with text-generation-webui and various models, trying different gguf quantized versions of some models to determine what kind of compromises are made when choosing lower quantization.
