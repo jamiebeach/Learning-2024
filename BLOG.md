@@ -1,5 +1,14 @@
 # Blog
 ---
+## February 6
+- Spent some time today working through an Language Model lab. Kaggle has a bunch of what looks like great tutorials and light courses that take the learner through building or using language models.
+- I spent about an hour working through [Getting Started with NLP for Absolute Beginners](https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners). It's really quite good and does a stellar job of covering overfitting and underfitting as well as linking out to some good resources about test data and evaluation metrics. My lab work is [here in this repo](./LLM/labs/getting-started-nlp-beginners/). The transformers library definitely needs more than 4gb or VRAM if running on GPU. I tried on my laptop that has an A1000 on it and it really just didn't work.
+- 
+
+## February 5
+- Light day with AI. Spent a fair bit of time playing once again with text-generation-webui and various models, trying different gguf quantized versions of some models to determine what kind of compromises are made when choosing lower quantization.
+- I found that for some mistral based language models, running them with 4 bit reduced quality significantly.
+
 ## February 4
 - Spent the moring reinstalling the Oobabooga Text-Generation-WebUI. Strangely I was getting some errors when I first installed it but then reinstalled and things worked out well. Then I played around some more with the tool and compared it to Kobold. Ooobabooga is clearly better. It's much faster on my machine without any changes to default parms.
 - After that, spent time working on [depthtube](https://depthtube.com). I got a couple things working and made a build that I deployed to the site.

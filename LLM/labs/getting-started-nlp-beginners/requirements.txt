@@ -1,0 +1,7 @@
+kaggle
+pandas
+datasets
+transformers
+transformers[sentencepiece]
+transformers[torch]
+numpy
