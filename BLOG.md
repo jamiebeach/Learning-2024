@@ -1,5 +1,8 @@
 # Blog
 ---
+## February 7
+- Reviewed the recent AI-102 practice exam and the questions for which I didn't get correct answers. I upsed my study notes with some more details for those areas. Fun!
+
 ## February 6
 - Spent some time today working through an Language Model lab. Kaggle has a bunch of what looks like great tutorials and light courses that take the learner through building or using language models.
 - I spent about an hour working through [Getting Started with NLP for Absolute Beginners](https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners). It's really quite good and does a stellar job of covering overfitting and underfitting as well as linking out to some good resources about test data and evaluation metrics. My lab work is [here in this repo](./LLM/labs/getting-started-nlp-beginners/). The transformers library definitely needs more than 4gb or VRAM if running on GPU. I tried on my laptop that has an A1000 on it and it really just didn't work.
