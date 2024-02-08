@@ -1,7 +1,8 @@
 # Blog
 ---
 ## February 7
-- Reviewed the recent AI-102 practice exam and the questions for which I didn't get correct answers. I upsed my study notes with some more details for those areas. Fun!
+- Reviewed the recent AI-102 practice exam and the questions for which I didn't get correct answers. I updated my study notes with some more details for those areas. Fun!
+- Did another practice test this evening. Failed again with another 57%. But the practice test that I did in Udemy seems to maybe not be 100% correct. Regardless, I feel like my next practice test will go well.
 
 ## February 6
 - Spent some time today working through an Language Model lab. Kaggle has a bunch of what looks like great tutorials and light courses that take the learner through building or using language models.
