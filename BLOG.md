@@ -1,5 +1,12 @@
 # Blog
 ---
+## February 9
+- Did another practice test and passed this time!
+
+## February 8
+- Did another practice test today. Failed again, but a tiny bit better?
+- Started reading a really great piece about [embeddings here](https://vickiboykis.com/what_are_embeddings/). Didn't realize how fundamenta\important embeddings are to successful machine learning. The author has a bunch of really great writing otherwise too. Recommended.
+
 ## February 7
 - Reviewed the recent AI-102 practice exam and the questions for which I didn't get correct answers. I updated my study notes with some more details for those areas. Fun!
 - Did another practice test this evening. Failed again with another 57%. But the practice test that I did in Udemy seems to maybe not be 100% correct. Regardless, I feel like my next practice test will go well.
