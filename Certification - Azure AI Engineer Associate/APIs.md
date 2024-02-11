@@ -44,7 +44,7 @@
 ## Face
 | API/Function | Description | API Examples |
 | --- | --- | --- |
-| Face | Detects human faces in an image and returns face locations, landmarks, and optional attributes like head pose, age, and gender. | `detectWithUrl(imageUrl, returnFaceId, returnFaceLandmarks, returnFaceAttributes)`<br>`detectWithStream(imageStream, returnFaceId, returnFaceLandmarks, returnFaceAttributes)` |
+| Face | Detects human faces in an image and returns face locations, landmarks, and optional attributes like head pose, age, and gender. | `detectWithUrl(imageUrl, returnFaceId, returnFaceLandmarks, returnFaceAttributes)`<br>`detectWithStream(imageStream, returnFaceId, returnFaceLandmarks, returnFaceAttributes)`<br>\/face\/v1.0\/findsimilars |
 | Face List | Creates and manages a list of persisted face IDs for face identification. |POST {Endpoint}/face/v1.0/facelists/{faceListId}/persistedfaces |
 | Large Face List | Manages large lists of faces for identification purposes. | `createLargeFaceList(largeFaceListId, name, userData)`<br>`deleteLargeFaceList(largeFaceListId)` |
 | Large Person Group | Group faces for identification against a large dataset. | `createLargePersonGroup(largePersonGroupId, name, userData)`<br>`deleteLargePersonGroup(largePersonGroupId)` |

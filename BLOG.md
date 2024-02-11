@@ -1,5 +1,13 @@
 # Blog
 ---
+## February 10
+- Did another AI-102 practice test and passed again. Getting better by the day.
+- Came across a couple new interesting models :
+    - [Bunny](https://huggingface.co/BAAI/bunny-phi-2-siglip-lora) : is a family of lightweight but powerful multimodal models. It offers multiple plug-and-play vision encoders, like EVA-CLIP, SigLIP and language backbones, including Phi-1.5, StableLM-2 and Phi-2.
+    - [Metavoice](https://huggingface.co/metavoiceio/metavoice-1B-v0.1) : MetaVoice-1B is a 1.2B parameter base model trained on 100K hours of speech for TTS (text-to-speech). It says that it requires a gpu with > 24gb vram though :/
+    - [Whisperspeech](https://huggingface.co/collabora/whisperspeech) : An Open Source text-to-speech system built by inverting Whisper. Previously known as spear-tts-pytorch.
+    - [Bark](https://github.com/suno-ai/bark?tab=readme-ov-file) : Bark is a transformer-based text-to-audio model created by Suno.
+
 ## February 9
 - Did another practice test and passed this time!
 
