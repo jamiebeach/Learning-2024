@@ -1,5 +1,8 @@
 # Blog
 ---
+## February 11
+- Spent some more time with LLMs. I experimented with various models from huggingface and tried different quantizations. On my machine, with 16gb of vram on my GPU, I've found that Solar 10 Instruct v1 34B is really really good and also performant.
+
 ## February 10
 - Did another AI-102 practice test and passed again. Getting better by the day.
 - Came across a couple new interesting models :
