@@ -1,7 +1,14 @@
 # Blog
 ---
+## February 12
+- I went through another 100 exam prep questions this morning and passed. I went deep into the ones that I got incorrect and compared with other sites too. 
+- The AI-102 exam is tomorrow. I feel pretty good, but who knows... Will be doing some more questions tonight as well. (done - did another 114 practice questions - 80% score).
+- I added a [README to the LLM section](./LLM/README.md) in this repo. Planning to put links to some of the better models that I've used on huggingface.
+
 ## February 11
-- Spent some more time with LLMs. I experimented with various models from huggingface and tried different quantizations. On my machine, with 16gb of vram on my GPU, I've found that Solar 10 Instruct v1 34B is really really good and also performant.
+- Spent some more time with LLMs. I experimented with various models from huggingface and tried different quantizations. On my machine, with 16gb of vram on my GPU, I've found that [Solar 10.7B Instruct](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0) is really really good and also performant. I asked it many questions and it mostly hit them spot on. With the exception of starting the Infocom Hitchhiker's Guide to the Galaxy game correctly. 
+- Came across a really good book called [AI-102: Designing and Implementing a Microsoft Azure AI Solution : Study Guide with Practice Questions and Labs - First Edition](https://www.amazon.ca/AI-102-Designing-Implementing-Microsoft-Questions-ebook/dp/B0988751MV). I quickly skimmed through about half the book and it is chock full of good details. If you find yourself here on this github repo in search of some AI-102 material, I highly recommend snagging this. $10 on Kindle is a steal, to be honest. I've also linked to it in my [AI-102 notes here](./Certification%20-%20Azure%20AI%20Engineer%20Associate/notes.md).
+- Not sure really how I feel about my upcoming certification exam. I'm passing the practice tests now, but who knows.. those are just practice tests. I spent a whole bunch of time today re-reading my own notes and adding a few more details as well, including some more code snippets (thanks ChatGPT).
 
 ## February 10
 - Did another AI-102 practice test and passed again. Getting better by the day.

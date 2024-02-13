@@ -2,6 +2,10 @@
 
 [![Azure AI-102 Mindmap](../images/azure-ai-mindmap.svg)](../images/azure-ai-mindmap.svg)
 
+## Other Resources
+- [IP Specialist - AI-102 Study Guide](https://www.amazon.ca/AI-102-Designing-Implementing-Microsoft-Questions-ebook/dp/B0988751MV)
+
+
 ## [Azure Cognitive Serivces API Reference](https://learn.microsoft.com/en-us/rest/api/cognitiveservices/?view=rest-cognitiveservices-translator-v3.0)
 
 ## [Get Started with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai/?ns-enrollment-type=Collection)
@@ -138,6 +142,35 @@
 - Using identification, verification or recognition requires application to [limited access policy](https://aka.ms/cog-services-limited-access)
 - Face ID's (guids) are cached by Azure for 24 hours. Can be used to compare with faces in other media
 - Can train facial recognition on people's faces. In this case, face id is persisted.
+- Sample code to add faces to a face group :
+    ```c#
+    var client = new FaceClient(new AzureKeyCredential(subscriptionKey)) { Endpoint = endpoint };
+
+    try
+    {
+        // Create a face group (if it doesn't already exist)
+        Console.WriteLine($"Creating face group: {faceGroupId}");
+        await client.LargeFaceList.CreateAsync(faceGroupId, faceGroupId);
+
+        // Detect faces in the image
+        using var stream = File.OpenRead(imagePath);
+        var detectedFaces = await client.Face.DetectWithStreamAsync(stream);
+
+        // Add detected faces to the face group
+        foreach (var face in detectedFaces)
+        {
+            Console.WriteLine($"Adding face: {face.FaceId} to the face group.");
+            await client.LargeFaceList.AddFaceFromStreamAsync(faceGroupId, stream, userData: $"Face_{face.FaceId}");
+        }
+
+        Console.WriteLine("Faces added to the face group successfully.");
+    }
+    catch (RequestFailedException e)
+    {
+        Console.WriteLine($"Error: {e.Message}");
+    }
+    ```
+
 
 ### Azure Video Indexing
 - Extract information from videos
@@ -241,6 +274,19 @@
 - Consume from REST endpoint
 - Active Learning can help you get better answer selection over time.
 
+### Azure Bot Service
+- **Cards** :
+    1. **Adaptive Cards** : A card format that allows for complex, customizable card layouts with controls like buttons, text inputs, date pickers, and more. Adaptive cards can adapt their appearance to match the host platform or application.
+    2. **Hero Cards** : Cards that typically contain a large image, one or more buttons, and text. They are useful for highlighting a single item or action.
+    3. **Thumbnail Cards** : Similar to hero cards but designed to showcase multiple items in a more compact format. Thumbnail cards include a thumbnail image, text, and buttons.
+    4. **Receipt Cards** : Cards designed to show a receipt to the user. They can include a list of items with prices, tax information, and total amount.
+    5. **Sign-In Cards** : Cards that provide a way for users to sign in to a service. They typically include a sign-in button that opens a sign-in URL.
+    6. **Animation Cards** : Cards designed to display an animation. They support GIF or short video clips.
+    7. **Video Cards** : Cards for showcasing video content. They include controls for playing the video directly within the card.
+    8. **Audio Cards** : Cards that play audio clips. They include playback controls for the audio content.
+    9. **Carousel Cards** : A format to display multiple cards (of any type) as a carousel that users can scroll through horizontally.
+    10. **List Cards** : A format for displaying a list of items, where each item can be a card or a simple list entry.
+
 ### Build a Conversational Language Understanding Model
 - NLP (Natural Language Processing) vs NLU (Natural Language Understanding) - determining semantic meaning from natural language
 - User Input -> NLU Model determines meaning -> App performs action
@@ -324,7 +370,58 @@ Precision = #True_Positive / (#True_Positive + #False_Positive)
 - Custom translations :
     -  you can create a custom model that maps your own sets of source and target terms for translation
     - assigns new category that you can use as parameter
-    
+- Sample Code :
+    ```python
+    from azure.ai.translation.text import DocumentTranslationClient, TranslationTarget
+    from azure.core.credentials import AzureKeyCredential
+
+    # Your Azure subscription key and endpoint
+    subscription_key = 'your_subscription_key_here'
+    endpoint = 'your_translation_resource_endpoint_here'
+
+    # Create a Document Translation client
+    client = DocumentTranslationClient(endpoint, AzureKeyCredential(subscription_key))
+
+    # Define the input text and translation target
+    inputs = [
+        {
+            "text": "Your text here with profanity to be deleted"
+        }
+    ]
+
+    # Configure translation options, including profanity action
+    translation_targets = [
+        TranslationTarget(
+            language_code="de",  # Target language code
+            profanity_action="Deleted"  # Delete profanity
+        )
+    ]
+
+    # Perform the translation
+    result = client.translate(inputs=inputs, targets=translation_targets)
+
+    # Output the results
+    for translation in result:
+        print(f"Translated to: {translation.translated_document.language_code}")
+        print(f"Text: {translation.translated_document.content}")
+        print("-----")
+
+    ```
+- Sample Code (C#):
+    ```c#
+        string inputText = "Your text here with profanity to be deleted";
+    string targetLanguage = "de"; // German
+
+    var document = new TranslationConfiguration(new Uri("<your-sas-url>"), "<your-target-container-sas-url>", targetLanguage)
+    {
+        ProfanityAction = ProfanityAction.Deleted
+    };
+
+    var operation = await client.StartTranslationAsync(document);
+
+    await operation.WaitForCompletionAsync();
+    ```
+
 ### Azure AI Speech
 - Speech to text
     - Speech to text API, which is the primary way to perform speech recognition.
@@ -403,6 +500,9 @@ using (var recognizer = new TranslationRecognizer(speechConfig))
 - Facets : a useful way to present users with filtering criteria based on field values in a result set
     - To use facets, you must specify facetable fields
 - Sorting results : by default : relevance
+- Facetable vs Filterable : 
+    - **Facetable** Fields (Category, Brand) are used to provide an overview and navigational aid, allowing users to refine their search based on the distribution of search results across predefined categories or attributes.
+    - **Filterable** Fields (Price, Rating) offer precise control over which search results are returned, based on specific criteria defined by the user.
 - Search as you type
     - Retrieval 
     - Autocomplete
@@ -426,6 +526,12 @@ using (var recognizer = new TranslationRecognizer(speechConfig))
 - When an indexer runs the pipeline to create or update an index, the projections are generated and persisted in the knowledge store.
 - **Projections** : projections of data to be stored in your knowledge store are based on the document structures generated by the enrichment pipeline in your indexing process.
 - Shaper Skill : creates a well-formed JSON document, easier to map to a projection in a knowledge store than the more complex document that has been built iteratively by the previous skills in the enrichment pipeline.
+- How it works : 
+    - Data Ingestion: Raw data is ingested into Azure Cognitive Search.
+    - AI Enrichment: The data undergoes enrichment using the built-in AI capabilities of Azure Cognitive Search. This process adds additional information and insights to the data, such as extracting key phrases, identifying entities, or analyzing images.
+    - Projection Creation: As part of the enrichment pipeline configuration, you specify how you want the enriched data to be structured and saved. This involves creating projections that define the format and structure of the output data.
+    - Storage: The projections are stored in the knowledge store, which can be Azure Blob Storage, Azure Table Storage, or other supported Azure storage solutions.
+    - Usage: Once saved in the knowledge store, the enriched data can be accessed and used for a wide range of applications, such as analytics, machine learning, or any other scenario that can benefit from enriched content
 
 ## [Enrich a Search Index with Language Studio](https://ai102srch887224144.search.windows.net)
 - Language Studio groups its features into the following areas:
