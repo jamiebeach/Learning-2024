@@ -1,5 +1,12 @@
 # Blog
 ---
+## February 13
+- Passed the Azure AI-104 exam. Phew! Got over 82 on it as well, so that feels good. I took nearly the full hour and a half to write it. Double-checked a bunch of questions and made some last minute changes. I guess it paid off to take my time. Quite a few more questions on OpenAI than I anticipated and unfortunately the Azure OpenAI stuff isn't easily available for access and the study material outside of the self-paced learning is sparse as they only recently added it to the exam.
+![Azure AI-104 Certification](./images/20240213-azure-ai-104cert.jpg)
+- I came across this video today. Good intro to RAG and how to add them to chatgpt : [Chatbots with RAG: LangChain Full Walkthrough](https://www.youtube.com/watch?v=LhnCsygAvzY&t=1443)
+- Also came across this video about [AutoGen](https://www.youtube.com/watch?v=vU2S6dVf79M). Kinda neat.
+- I may run through both of those tutorials tomorrow.
+
 ## February 12
 - I went through another 100 exam prep questions this morning and passed. I went deep into the ones that I got incorrect and compared with other sites too. 
 - The AI-102 exam is tomorrow. I feel pretty good, but who knows... Will be doing some more questions tonight as well. (done - did another 114 practice questions - 80% score).
