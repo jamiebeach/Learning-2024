@@ -1,5 +1,14 @@
 # Blog
 ---
+## February 15
+- Spent a good part of the day driving. 6 hours on the road for a typically 3 hour road trip! Of all the days it had to snow, it had to be today :/
+- While on the road, [OpenAI released Sora](https://openai.com/sora) - a text-to-video model. As of today, it's released to red teamers. Shouldn't be long before it's more widely available. Very amazing though - based on the clips on its site, seems far superior to Pika, Stable Video and other video AI.
+- Tonight I picked up where I left off with the Udemy course, [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/learn/lecture/4020558#overview). The instructor covered Naive Bayes spam filtering and k-means clustering.
+]
+## February 14
+- Listened to [last week's episode of This Day in AI](https://podcast.thisdayinai.com/). It was good, as usual, discussing Google's Gemini and comparing it to ChatGPT4 and Quen. Spoiler - Gemini isn't very impressive, especially for its cost.
+- I got text-generation-webui running on gpu compute from [lambda labs](https://cloud.lambdalabs.com/login). I spun up a compute instance with 16gb of ram for really quite cheap. I installed text-gen-webui quickly and ran a chat model with ease. I used ngrok to expose the webui interface externally. And after about an hour and a bit, it only cost about $1. Sweet!
+
 ## February 13
 - Passed the Azure AI-104 exam. Phew! Got over 82 on it as well, so that feels good. I took nearly the full hour and a half to write it. Double-checked a bunch of questions and made some last minute changes. I guess it paid off to take my time. Quite a few more questions on OpenAI than I anticipated and unfortunately the Azure OpenAI stuff isn't easily available for access and the study material outside of the self-paced learning is sparse as they only recently added it to the exam.
 ![Azure AI-104 Certification](./images/20240213-azure-ai-104cert.jpg)
