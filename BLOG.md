@@ -1,5 +1,24 @@
 # Blog
 ---
+## February 17
+- Started going through the [Chatbots with RAG: LangChain Full Walkthrough](https://www.youtube.com/watch?v=LhnCsygAvzY&t=1443) tutorial. Really good. Will add my version of the jupyter notebook to this repo when I'm done.
+- Came across a post on Threads that linked to this gem on Hugging Face : [The Open Source AI Cookbook](https://huggingface.co/learn/cookbook/index). It's a collection of notebooks illustrating practical aspects of building AI applications and solving various machine learning tasks using open-source tools and models.
+ 
+## February 16
+- Another long day of driving but got through a couple of good podcasts. In particular, really enjoyed the [Practical AI podcast interview with Karan Malhotra](https://changelog.com/practicalai/255). Karan gives a good overview of Nous Research and discusses how the organization came to be. He also provides a great response when asked about how people can contribute to open source language learning models. I'm goint to paraphrase it here for future learning :
+
+
+>- Direct instruction tuning is effective, but exploring new instruction methodologies can lead to better data formatting.
+>- There's a need for innovation in creating new instruction formats, an area that doesn't require coding skills but rather a thoughtful approach to phrasing and formatting.
+>- Model merging is a technique worth experimenting with, despite unpredictable outcomes.
+>- Techniques like DPO and RLHF offer unique ways to guide model behavior, such as enabling content rejection or applying conceptual directions.
+>- The effectiveness of the News Hermes Mistral DPO highlights the preference for advanced fine-tuning methods over standard ones.
+>- Research into reward models is ongoing, with potential significant impacts on reasoning capabilities.
+>- Multi-step prompting methods like chain of thought and tree of thought are valuable for creating datasets and enhancing model performance.
+>- "Activations hacking" allows for a nuanced adjustment of model responses, offering a deeper level of control than standard prompts.
+>- Soft prompting, which compresses extensive prompts into fewer tokens, is an underutilized technique that could benefit modern models.
+>- There's a significant opportunity for innovation in sampling methods, which could transform model performance across various architectures.
+
 ## February 15
 - Spent a good part of the day driving. 6 hours on the road for a typically 3 hour road trip! Of all the days it had to snow, it had to be today :/
 - While on the road, [OpenAI released Sora](https://openai.com/sora) - a text-to-video model. As of today, it's released to red teamers. Shouldn't be long before it's more widely available. Very amazing though - based on the clips on its site, seems far superior to Pika, Stable Video and other video AI.
