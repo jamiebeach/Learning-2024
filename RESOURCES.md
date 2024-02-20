@@ -22,6 +22,9 @@
 ## Courses
 - [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/share/101W9O3@VqPjR6sljJFflMO_mBMY8Uscvj2cNVU9fw6gIJ3_CPRQtxm9pkSp6Rl7etLlW3dl/)
 
+## Labs
+- [Hugging Face Open-Source AI Cookbooks](https://huggingface.co/learn/cookbook/index)
+
 ## Certifications
 - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-102/)
   - [John Savill's AI-102 Study Cram](https://youtu.be/I7fdWafTcPY?si=61NBPmfqbxD8G0j_)
@@ -38,6 +41,7 @@
 | [ Text-Generation : Koboldcpp](https://github.com/LostRuins/koboldcpp) | KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models. It's a single self contained distributable from Concedo, that builds off llama.cpp, and adds a versatile Kobold API endpoint, additional format support, backward compatibility, as well as a fancy UI with persistent stories, editing tools, save formats, memory, world info, author's note, characters, scenarios and everything Kobold and Kobold Lite have to offer. |
 | [ Text-Generation : LMStudio](https://lmstudio.ai/) | Amazing tool for downloading and running many different text-generation models locally on your machine |
 | [ Text-Generation : oobabooga WebUI](https://github.com/oobabooga/text-generation-webui) | Very similar to Automatic1111 interface but this is for text-generation. Very cool tool. Assists with downloading and running models from HuggingFace. |
+| [Langchain](https://python.langchain.com/docs/get_started/introduction) | LangChain is a framework for developing applications powered by language models. |
 
 ## Other
 | Link | Description |
