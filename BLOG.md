@@ -1,5 +1,13 @@
 # Blog
 ---
+## February 19
+- Spent a long time today looking at various cloud GPU offerings. I still think Llambda is probably the best there is. Can spin up a system with decent vram for a decent price, although there isn't really any way to run a container on it for any length of time, besides just running the container. I did see some instructions to setup kubernetes on a Llambda GPU instance, but that seems overkill.
+- I spent a fair bit of time poking around at possibilities with Azure too, but it's much the same as the rest - any relatively decent GPU compute for a containerized application costs money and in many cases, it's very difficult to find a region that has the right GPU available. I even found that the pricing page wasn't quite correct listing out which regions had what... Additionally, there are the limits that need to be setup properly etc..
+- Paperspace (now owned by Digital Ocean) is a good option too but when I went to select a relatively mediocre GPU setup, it said I wasn't authorized and I had to request authorization. Too much trouble...
+- I'm very much looking forward to a time when cloud GPU is much less expensive and more attainable for average folks like me :)
+
+## February 18
+- Finished the [Chatbots with RAG: LangChain Full Walkthrough](https://www.youtube.com/watch?v=LhnCsygAvzY&t=1443) tutorial. Made a RAG and more! Honestly, great tutorial. This was my first time working with a vector database, Pinecone and LangChain. Actually that's not entirely true - I have used LangChain previously but not 
 ## February 17
 - Started going through the [Chatbots with RAG: LangChain Full Walkthrough](https://www.youtube.com/watch?v=LhnCsygAvzY&t=1443) tutorial. Really good. Will add my version of the jupyter notebook to this repo when I'm done.
 - Came across a post on Threads that linked to this gem on Hugging Face : [The Open Source AI Cookbook](https://huggingface.co/learn/cookbook/index). It's a collection of notebooks illustrating practical aspects of building AI applications and solving various machine learning tasks using open-source tools and models.
