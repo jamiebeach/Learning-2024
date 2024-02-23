@@ -1,5 +1,16 @@
 # Blog
 ---
+## February 22 (Day 48)
+- Used what I learned from the LangChain RAG lab and tried to do something similar to create a vector database index (on Pinecone) with some book text that I had. [Lab is here](./LLM/labs/book-rag/rag.ipynb). I wrote some code to parse a .md file into a .csv file. From there, reused the code to then create embeddings and insert into a pinecone index. I guess because the data wasn't great - it was just one chapter of text, the vector representation wasn't great maybe as a result and doing searches didn't really result in text that made much sense. But it was a good experiment. I suppose if maybe I used an entire book and not just a single chapter, and maybe used better metadata, it would have been much better.
+- I also started going through a course on LinkedIn Learning. [Introduction to AI Orchestration with LangChain and LlamaIndex](https://www.linkedin.com/learning/introduction-to-ai-orchestration-with-langchain-and-llamaindex/building-an-app-with-the-openai-api) was just recently published and looks kinda good. 
+
+## February 21
+- Played around a little more with Pinecone db and creating RAG from documents.
+- Google open sourced a 2B and 7B language model, based on their new Gemini [Here](https://blog.google/technology/developers/gemma-open-models/).
+
+## February 20
+- Didn't do a lot of learning, but spent more time looking for good pricing on cloud gpu. Not a lot of options. I did find anoter option : [Fluidstack](https://console2.fluidstack.io/virtual-machines). Seems to be able to easily procure gpu vm's for between $0.75 and $1.20 per hour. Seems like a similar setup as [Llambda Labs](https://lambdalabs.com/).
+
 ## February 19
 - Spent a long time today looking at various cloud GPU offerings. I still think Llambda is probably the best there is. Can spin up a system with decent vram for a decent price, although there isn't really any way to run a container on it for any length of time, besides just running the container. I did see some instructions to setup kubernetes on a Llambda GPU instance, but that seems overkill.
 - I spent a fair bit of time poking around at possibilities with Azure too, but it's much the same as the rest - any relatively decent GPU compute for a containerized application costs money and in many cases, it's very difficult to find a region that has the right GPU available. I even found that the pricing page wasn't quite correct listing out which regions had what... Additionally, there are the limits that need to be setup properly etc..
@@ -8,6 +19,7 @@
 
 ## February 18
 - Finished the [Chatbots with RAG: LangChain Full Walkthrough](https://www.youtube.com/watch?v=LhnCsygAvzY&t=1443) tutorial. Made a RAG and more! Honestly, great tutorial. This was my first time working with a vector database, Pinecone and LangChain. Actually that's not entirely true - I have used LangChain previously but not 
+
 ## February 17
 - Started going through the [Chatbots with RAG: LangChain Full Walkthrough](https://www.youtube.com/watch?v=LhnCsygAvzY&t=1443) tutorial. Really good. Will add my version of the jupyter notebook to this repo when I'm done.
 - Came across a post on Threads that linked to this gem on Hugging Face : [The Open Source AI Cookbook](https://huggingface.co/learn/cookbook/index). It's a collection of notebooks illustrating practical aspects of building AI applications and solving various machine learning tasks using open-source tools and models.
@@ -32,7 +44,7 @@
 - While on the road, [OpenAI released Sora](https://openai.com/sora) - a text-to-video model. As of today, it's released to red teamers. Shouldn't be long before it's more widely available. Very amazing though - based on the clips on its site, seems far superior to Pika, Stable Video and other video AI.
 - Tonight I picked up where I left off with the Udemy course, [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/learn/lecture/4020558#overview). The instructor covered Naive Bayes spam filtering and k-means clustering.
 ]
-## February 14
+## February 14 (Day 40)
 - Listened to [last week's episode of This Day in AI](https://podcast.thisdayinai.com/). It was good, as usual, discussing Google's Gemini and comparing it to ChatGPT4 and Quen. Spoiler - Gemini isn't very impressive, especially for its cost.
 - I got text-generation-webui running on gpu compute from [lambda labs](https://cloud.lambdalabs.com/login). I spun up a compute instance with 16gb of ram for really quite cheap. I installed text-gen-webui quickly and ran a chat model with ease. I used ngrok to expose the webui interface externally. And after about an hour and a bit, it only cost about $1. Sweet!
 
@@ -81,7 +93,7 @@
 - Light day with AI. Spent a fair bit of time playing once again with text-generation-webui and various models, trying different gguf quantized versions of some models to determine what kind of compromises are made when choosing lower quantization.
 - I found that for some mistral based language models, running them with 4 bit reduced quality significantly.
 
-## February 4
+## February 4 (Day 30)
 - Spent the moring reinstalling the Oobabooga Text-Generation-WebUI. Strangely I was getting some errors when I first installed it but then reinstalled and things worked out well. Then I played around some more with the tool and compared it to Kobold. Ooobabooga is clearly better. It's much faster on my machine without any changes to default parms.
 - After that, spent time working on [depthtube](https://depthtube.com). I got a couple things working and made a build that I deployed to the site.
 - This afternoon, I browsed around at various text-generaton models at Huggingface. I like the gguf models best because I can choose quantized versions with various levels of data loss. This lets me choose smaller files while maybe compromising a tiny bit of accuracy. Which works for me. [TheBloke](https://huggingface.co/TheBloke) is a great resource for so many gguf models. Some obscure, many new models like mistrel.
@@ -120,7 +132,7 @@ And it got me thinking... These models are going to be more and more advanced. T
 ## January-31
 - Mostly spent this evening studying for the AI-102 exam. Maybe put an hour into going through pages of questions. Also found that the [Azure AI Cognitive Services API Reference](https://learn.microsoft.com/en-us/rest/api/cognitiveservices/?view=rest-cognitiveservices-translator-v3.0) is pretty useful to go through and memorize some of it. I may make a chart or table that provides a summary of them all. I tried to get ChatGPT to make one, but it started making things up. Smh.
 
-## January-30
+## January-30 (Day 25)
 - Took the train into Toronto this morning so had some time on it to do a lab from the AI-102 self-paced training. It was text classification, but really, it was just calling APIs on Azure to perform the text classification.
 - On the way back from Toronto this evening, I tried to do another lab, but had trouble with the Azure storage container being accessible from Language Studio. I'm not sure what I was doing wrong but even when I allowed anonymous access, language studio still could not see the storage container.
 - ![Zuck announcing Code Llama 70b](./images/20240130-zuck-llama70b.jpg)
@@ -152,7 +164,7 @@ And it got me thinking... These models are going to be more and more advanced. T
 - Besides this experiment, I also watched [this neat TED Talk that](https://www.ted.com/talks/jim_fan_the_next_grand_challenge_for_ai) discusses a path to create foundational agent model, using transformers and leveraging the latest in 3d graphics for training environments. He talks about training on 10k "diverse simulated realities" which could maybe produce an agent scaled to be generalized for our physical world. Very cool talk.
 - Also started going through questions from an AI-102 exam question site.
 
-## January-25
+## January-25 (Day 20)
 - Went through a couple of lessons in the [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/share/101W9O3@VqPjR6sljJFflMO_mBMY8Uscvj2cNVU9fw6gIJ3_CPRQtxm9pkSp6Rl7etLlW3dl/) course. Mostly about regression and fitting with multi-order polynomial equations. Also went through his lesson on naieve Bayes and spam filtering. I've seen that one many times before.
 - Did a couple of lessons in the AI-102 path for Azure OpenAI. But two things :
     1. First, it's basically just OpenAI. So if you have ever used OpenAI Playground or the REST endpoints, you're gold.
@@ -221,7 +233,7 @@ Found that Hugging Face now has a social network of its own on its site. Some in
 
 Finished the Natural Language Processing module in the AI-102 learning path (finally).
 
-## January-15
+## January-15 (Day 10)
 - Watched more of Savill's AI-102 cram video. 
 - Did the AI-102 [Speech recognition and synthesis lab](./Certification%20-%20Azure%20AI%20Engineer%20Associate/labs/ai-language/07-speech/)
 - When doing the speech synthesis lab, I was actually surprised about the quality of the voice synthesis. I'm used to ElevenLabs voice synth and Microsoft's voices were actually pretty good. MS has a voice gallery as well, located here : [https://speech.microsoft.com/portal/voicegallery](https://speech.microsoft.com/portal/voicegallery).
@@ -260,7 +272,7 @@ Tonight, I started exploring fine-tuning LLMs. I've used LoRAs with Stable Diffu
 This video came from a [series of videos by Shaw Talebi about Large Language Models](https://www.youtube.com/watch?v=tFHeUSJAYbE&list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0) which look really good. Bookmarking!
 
 
-## January-10
+## January-10 (Day 5)
 I saw some tweets this morning about how GPT-4 is getting increasingly "lazy" and some innacuracies or unfinished responses being observed more often. In response, some people suggested running LLMs like [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/) which is touted as the best 7B open source model available to date. Some people then responded that it isn't possible to run this without high vram, but that is incorrect. It's possible to run quantized versions of Mistral without any vram. As a test, I used [LM Studio](https://lmstudio.ai/) and was able to get some answers to some non-intuitive problems and the performance was quite quick when using the right version of Mistral.
 
 Aside : What does quantization mean anyway? And how does one quantize a model? Note to self: explore this...
@@ -301,7 +313,7 @@ This evening, I did a few modules in Computer Vision on the self-paced AI-102 le
 - Did the Analyze Images lab in the self-paced learning track
 - Watched another 30 minutes of [John Savill's Azure AI-102 Study Cram](https://youtu.be/I7fdWafTcPY?si=d9l-gEwqddqYiAmx) video - again while working out in my basement gym.
  
-## January-6
+## January-6 (Day 1)
 So here I go again. Trying to jam in as much learning as I can about AI. Intending to use this markdown file as a mechanism to blog about it all. Previously when I did this, I documented the whole journey in [Trello, here](https://trello.com/b/g1cS5K0O) and wrote about the top 5 insights I learned, [here in a Medium article](https://medium.com/swlh/top-5-insights-after-i-spent-100-days-learning-about-artificial-intelligence-b14b44a67134). This time, I'm just going to put it all in my github account. This has become the place where I mostly write anyway.
 
 I'm going to commit to 30 minutes per day of learning. This doesn't include writing in the journal here. I'm hopeful to be able to spend considerable more time than that, but I have work and family and I also need to keep my Duolingo streak going 😉.
