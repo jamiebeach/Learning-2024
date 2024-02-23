@@ -3,7 +3,9 @@
 ## February 22 (Day 48)
 - Used what I learned from the LangChain RAG lab and tried to do something similar to create a vector database index (on Pinecone) with some book text that I had. [Lab is here](./LLM/labs/book-rag/rag.ipynb). I wrote some code to parse a .md file into a .csv file. From there, reused the code to then create embeddings and insert into a pinecone index. I guess because the data wasn't great - it was just one chapter of text, the vector representation wasn't great maybe as a result and doing searches didn't really result in text that made much sense. But it was a good experiment. I suppose if maybe I used an entire book and not just a single chapter, and maybe used better metadata, it would have been much better.
 - I also started going through a course on LinkedIn Learning. [Introduction to AI Orchestration with LangChain and LlamaIndex](https://www.linkedin.com/learning/introduction-to-ai-orchestration-with-langchain-and-llamaindex/building-an-app-with-the-openai-api) was just recently published and looks kinda good. 
-
+- Played with a quantized Gemma 2B gguf that was release by LM Studio yesterday. Turns out that Quantized Gemma 2B isn't very smart.
+- ![Gemma Quantized 2B not very bright](./images/20230222-gemma2b-quantized-notsmart.jpg)
+ 
 ## February 21
 - Played around a little more with Pinecone db and creating RAG from documents.
 - Google open sourced a 2B and 7B language model, based on their new Gemini [Here](https://blog.google/technology/developers/gemma-open-models/).
