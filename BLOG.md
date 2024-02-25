@@ -1,7 +1,10 @@
 # Blog
 ---
+## February 24
+- Didn't do much today, although started a new blog, [thebeach.dev](https://thebeach.dev). The intention is to chronicle some long form thoughts about AI. Will see how it goes. The first post is in progress. I count this as another day. Will make up for any learning deficit tomorrow as it will be my 50th day at this.
+
 ## February 23
-- Not a whole lot today. I was playing around with pre-prompt a little bit. This was based on the prompt that I found in the sample code from retellai llm integration example.
+- I was playing around with pre-prompt a little bit. This was based on the prompt that I found in the sample code from retellai llm integration example.
 - [Retell AI](www.retellai.com) seems like a neat product, trying to provide a very human-like voice chat capability. I haven't actually tried it but will give it a go tomorrow maybe.
 - This also brought me to another link, [Deepgram](https://deepgram.com/) offers a bunch of text-to-speech and speech-to-text capabilities. It looks like maybe a more reasonable price than eleven labs as well. I am going to have to add that to the list of things to check out.
 
