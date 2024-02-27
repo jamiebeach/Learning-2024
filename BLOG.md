@@ -1,5 +1,13 @@
 # Blog
 ---
+## February 26
+- So yesterday I started creating this infinite craft clone with Langchain and OpenAI and duckdb. Today I finished it off. I've added the infinite craft app to the LLM labs section of this repo.
+- Had a good friend recommend this video from [MaRS (Canadian based firm).](https://vimeo.com/911197110) that held a recent conference about AI and its impact.
+
+## February 25
+- Blogged
+- Made infinitecraft with Langchain, OpenAI and duckdb
+
 ## February 24
 - Didn't do much today, although started a new blog, [thebeach.dev](https://thebeach.dev). The intention is to chronicle some long form thoughts about AI. Will see how it goes. The first post is in progress. I count this as another day. Will make up for any learning deficit tomorrow as it will be my 50th day at this.
 
