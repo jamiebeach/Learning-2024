@@ -1,2 +1,3 @@
 things.db
 things.db.wal
+*.csv
