@@ -1,8 +1,9 @@
 # Blog
 ---
 ## February 28
-- Made my first interface with Gradio, extending on the infinite-craft python notebook that I created.
+- Made my first interface with Gradio, extending on the [infinite-craft python notebook](./LLM/labs/infinitecraft/craft.ipynb) that I created. Pretty impressed at how easy it is to just create an interface. Also interesting how well it works in a python notebook too.
 ![first gradio app](./images/gradio-20240228.jpg)
+- [Neat "expressive video gen" model from Alibaba](https://www.threads.net/@luokai/post/C35Vt7EL33w)
 
 ## February 27
 - Had an interesting discussion with someone today. They suggested that AI was a fad like crypto was. I was taken aback at first, thinking wholeheartedly that they were wrong. But maybe they are right. Then again, crypto bounced recently, certainly heading towards an ATH this year. AI has also seen its ups and downs. Heck, the AI winter lasted decades.
