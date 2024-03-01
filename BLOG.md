@@ -1,5 +1,10 @@
 # Blog
 ---
+## February 29
+- Upstage.ai is offering their Solar LLM endpoint for free over the next month. 
+- Solar has been one of my favourite models available for chatting purposes. 
+- I wrote some simple code that uses Gradio's chatbot component with the Solar API using langchain. [Here](./LLM/labs/solarbeta/solar-chatbot.ipynb).
+
 ## February 28
 - Made my first interface with Gradio, extending on the [infinite-craft python notebook](./LLM/labs/infinitecraft/craft.ipynb) that I created. Pretty impressed at how easy it is to just create an interface. Also interesting how well it works in a python notebook too.
 ![first gradio app](./images/gradio-20240228.jpg)
