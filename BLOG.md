@@ -1,5 +1,12 @@
 # Blog
 ---
+## March 1
+- I cleaned up the [Solar chatbot lab](./LLM/labs/solarbeta/solar-chatbot.ipynb), adding more comments and better descriptions in the markdown. I might make a video of myself working through it.
+![Solar chatbot](./images/20240301-gradiochatbot.jpg)
+- Listened to a couple of AI podcasts today :
+    1. the most recent episode of [the AI Podcast](https://soundcloud.com/theaipodcast/pinar-demirdag-cuebric?utm_source=clipboard&utm_campaign=wtshare&utm_medium=widget&utm_content=https%253A%252F%252Fsoundcloud.com%252Ftheaipodcast%252Fpinar-demirdag-cuebric) interviewing Cuebric CEO [Pinar Seyhan Demirdag](https://pinar-seyhan-demirdag.medium.com/). They discussed [Cuebric](https://cuebric.com/) for filmmaking and I found a number of the points that Pinar made were pretty insightful. It's a relatively short interview, but I enjoyed it.
+    2. Listened to latest ep of [Last Week in AI](https://podcasts.google.com/feed/aHR0cHM6Ly93d3cubGFzdHdlZWtpbmFpLmNvbS9mZWVkLnhtbA/episode/YWl0YWxrLnBvZGJlYW4uY29tLzc5NDIxZTYzLWRiODItMzQwNC1iZTg3LWRiODJiMDM1MTM5NA?sa=X&ved=0CAUQkfYCahcKEwiYv62fzNSEAxUAAAAAHQAAAAAQAQ). They talked a lot about Sora but also touched on Gemini 1.5, so that made me interested to check that out as well. Finally signed up for early access.
+
 ## February 29
 - Upstage.ai is offering their Solar LLM endpoint for free over the next month. 
 - Solar has been one of my favourite models available for chatting purposes. 
