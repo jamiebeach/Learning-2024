@@ -1,5 +1,14 @@
 # Blog
 ---
+## March 3
+- More work with Coqui. Created a [python notebook](./TTS/Coqui/tts.ipynb) that goes through some of the supported models.
+- By far, xttsv2 is the best. It's soo good, but rendering synth voice does take many seconds in some cases.
+
+## March 2
+- I spent a good chunk of the day working with text-to-speech with Coqui.
+- Unfortunately it isn't super intuitive how to use Coqui, so lots of spinning.
+- I also spent time working with llama.cpp and trying to get a chatbot working with it. Mostly success. I created a [little llamacpp lab here](./LLM/labs/llamacpp/).
+
 ## March 1
 - I cleaned up the [Solar chatbot lab](./LLM/labs/solarbeta/solar-chatbot.ipynb), adding more comments and better descriptions in the markdown. I might make a video of myself working through it.
 ![Solar chatbot](./images/20240301-gradiochatbot.jpg)
