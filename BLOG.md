@@ -1,5 +1,11 @@
 # Blog
 ---
+## March 4-10
+- So I haven't updated this blog in the last number of days, but I've been working on an AI project.
+- I'm combining LLM, text to speech and speet to text into a web app and syncing it all with a 3d avatar (using a vrm model).
+- I've had to spend a lot of time learning about how to display and animate a vrm model in javascript and I've spent far too long working on lip-sync techniques. I imagine I'll continue working on this for some time now. It's all related.
+- ![VRMChatbot](./images/20240310_vrmchatbot01.jpg)
+
 ## March 3
 - More work with Coqui. Created a [python notebook](./TTS/Coqui/tts.ipynb) that goes through some of the supported models.
 - By far, xttsv2 is the best. It's soo good, but rendering synth voice does take many seconds in some cases.

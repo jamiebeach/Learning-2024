@@ -45,6 +45,12 @@
 | [ Text-Generation : oobabooga WebUI](https://github.com/oobabooga/text-generation-webui) | Very similar to Automatic1111 interface but this is for text-generation. Very cool tool. Assists with downloading and running models from HuggingFace. |
 | [Langchain](https://python.langchain.com/docs/get_started/introduction) | LangChain is a framework for developing applications powered by language models. |
 
+## Cloud GPU
+| Link | Pricing |
+|-|-|
+| [Llambda Labs](https://cloud.lambdalabs.com/instances) | A10 0.75, RTX6000 0.5, H100 2.49 |
+| [Fluidstack](https://console2.fluidstack.io/virtual-machines) | A30 0.95, RTX a6000 0.79, H100 3.30 |
+
 ## Other
 | Link | Description |
 |-|-|
