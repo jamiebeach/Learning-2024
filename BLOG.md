@@ -1,5 +1,25 @@
 # Blog
 ---
+## March 13-18
+- Been in Cancun the last week. 
+- Continued working on VRM Chatbot.
+    - Learning a fair bit about prompting the language model and how to get the LLM to respond in a very human way.
+    - Also continuing to experiment with RAG and getting actions and other metadata back from the LLM response. Some models are better at this than others.
+    - Have the LLM responding with JSON containing the text response plus things like mood, that would indicate the avatar how to act when responding.
+- I spent considerable time this week trying to get llamacpp to compile properly as a server and then continued to struggle when I did finally get it working. The LLM wouldn't respond every time. So I turned to koboldcpp which seems to be far more reliable.
+- Lots of things happening in AI this last week : X releasing grok-1 weights, new open source image refiner and scaler, Apple ending up partnering with Google for their LLM, Nvidia continuing to dominate with new silicon announced... Lots of things for sure.
+- I ended up listening to many podcasts in recent days. Also started reading Language Games. Great book about what language fundamentally is.
+ 
+## March 11-12
+- Seems like I'm slowing down on the blog entries here, but still going strong with experiments and learning with AI. Over the last couple of days :
+    - Continued working on the VRM Chatbot. Code is now in my github account.
+    - Listening to many AI related podcasts. Will be including links to the shows in the [resources page](./RESOURCES.md).
+    - I completed the [LinkedIn LangChain and LamaIndex course](http://putthelinkhere).
+        - Noted that while I have already been playing around with LangChain and the course didn't go very deep, there were a number of nuggests of really good information. Specifically, some details about prompting to JSON object and converting that to a Python class or object. Also some good information about getting the LLM to execute tasks and local actions. I've also ignored LamaIndex for the most part and didn't realize that it had some built in features for vectors and embeddings so I'l need to explore that more.
+        - Decent course - recommended for beginners and enthusiasts alike.
+    - I continued to work on some text-to-speech experiments. More specifically, working towards decent lip-sync with an avatar on a webpage and syncing to visemes\phonemes extracted from gen-ai synthetic tts from coqui xttsv2. That's a mouthful, but that is also really coming along nicely. I've been experimenting with using rhubarb to extract the visemes from the synthesized voice clips coming from xttsv2. It works ok, but kind of struggling on the client-size with the synchronization. I may have to delve into processing the audio by samples and timing the audio properly with the generated visemes instead of just relying on the browser playing the audio at the same time as I'm running through the viseme offsets provided by rhubarb. In fact, perhaps I'll do this.
+- I'm typing this from 30k feet, heading to Cancun for March Break with my fam. I'm eager to get my VRM Chatbot project into a decent state ahead of March 21st though as the Upstage AI team have a contest going for use of their Solar LLM API - $200k in credits could go a long way.
+
 ## March 4-10
 - So I haven't updated this blog in the last number of days, but I've been working on an AI project.
 - I'm combining LLM, text to speech and speet to text into a web app and syncing it all with a 3d avatar (using a vrm model).
