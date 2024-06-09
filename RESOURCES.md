@@ -55,3 +55,4 @@
 | Link | Description |
 |-|-|
 |[Hugging Face Posts](https://huggingface.co/posts)| Hugging Face introduced a social network on its site. Seems to be an effective way for AI researchers to share information. Very useful posts. |
+|[list from Ilya](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE) | “So I asked Ilya Sutskever, OpenAI’s chief scientist, for a reading list. He gave me a list of like 30 research papers and said, ‘If you really learn all of these, you’ll know 90% of what matters today.’ And I did.I plowed through all those things and it all started sorting out in my head.” via: John Carmack |
